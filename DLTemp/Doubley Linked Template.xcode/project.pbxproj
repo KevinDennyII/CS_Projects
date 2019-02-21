@@ -1,0 +1,144 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		6B055E1608BE8F0600E91567 = {
+			children = (
+				6B055E2208BE8F9F00E91567,
+				6B055E2308BE8F9F00E91567,
+				6B055E2408BE8F9F00E91567,
+				6B055E4C08BE963000E91567,
+				6B055E2608BE8F9F00E91567,
+				6B055E2708BE8F9F00E91567,
+				6B055E2808BE8F9F00E91567,
+				6B055E2008BE8F6E00E91567,
+				6B055E2108BE8F6E00E91567,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B055E1808BE8F0600E91567 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		6B055E1908BE8F0600E91567 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		6B055E1A08BE8F0600E91567 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				6B055E1808BE8F0600E91567,
+				6B055E1908BE8F0600E91567,
+			);
+			hasScannedForEncodings = 0;
+			isa = PBXProject;
+			mainGroup = 6B055E1608BE8F0600E91567;
+			projectDirPath = "";
+			targets = (
+			);
+		};
+		6B055E2008BE8F6E00E91567 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = const_iterator.cpp;
+			path = "../Documents/CS 2604 Fall 05'/DLTemplate/const_iterator.cpp";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B055E2108BE8F6E00E91567 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = const_iterator.h;
+			path = "../Documents/CS 2604 Fall 05'/DLTemplate/const_iterator.h";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B055E2208BE8F9F00E91567 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = DNodeT.h;
+			path = "../Documents/CS 2604 Fall 05'/DLTemplate/DNodeT.h";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B055E2308BE8F9F00E91567 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = iterator.cpp;
+			path = "../Documents/CS 2604 Fall 05'/DLTemplate/iterator.cpp";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B055E2408BE8F9F00E91567 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = iterator.h;
+			path = "../Documents/CS 2604 Fall 05'/DLTemplate/iterator.h";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B055E2508BE8F9F00E91567 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = English;
+			path = "../Documents/CS 2604 Fall 05'/DLTemplate/English.lproj/main.cpp";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B055E2608BE8F9F00E91567 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = main2.cpp;
+			path = "../Documents/CS 2604 Fall 05'/DLTemplate/main2.cpp";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B055E2708BE8F9F00E91567 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = main3.cpp;
+			path = "../Documents/CS 2604 Fall 05'/DLTemplate/main3.cpp";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B055E2808BE8F9F00E91567 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = Partial1.txt;
+			path = "../Documents/CS 2604 Fall 05'/DLTemplate/Partial1.txt";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B055E4C08BE963000E91567 = {
+			children = (
+				6B055E2508BE8F9F00E91567,
+			);
+			isa = PBXVariantGroup;
+			name = main.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = 6B055E1A08BE8F0600E91567;
+}

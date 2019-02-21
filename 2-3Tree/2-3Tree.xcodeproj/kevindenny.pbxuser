@@ -1,0 +1,95 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeBuildStyle = 014CEA460018CE2711CA2923 /* Development */;
+		activeExecutable = 6BD306AE09227E410059AF32 /* 2-3Tree */;
+		activeTarget = 8DD76F620486A84900D96B5E /* 2-3Tree */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* 2-3Tree */,
+		);
+		codeSenseManager = 6BD306B409227E5F0059AF32 /* Code sense */;
+		executables = (
+			6BD306AE09227E410059AF32 /* 2-3Tree */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 277083698;
+			PBXWorkspaceStateSaveDate = 277083698;
+		};
+		sourceControlManager = 6BD306B309227E5F0059AF32 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6BD306AE09227E410059AF32 /* 2-3Tree */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "2-3Tree";
+		sourceDirectories = (
+		);
+	};
+	6BD306B309227E5F0059AF32 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	6BD306B409227E5F0059AF32 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6BD306B509227E760059AF32 /* BinNodeT.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {858, 1358}}";
+			sepNavSelRange = "{1055, 0}";
+			sepNavVisRect = "{{0, 362}, {858, 568}}";
+			sepNavWindowFrame = "{{116, -127}, {897, 697}}";
+		};
+	};
+	8DD76F620486A84900D96B5E /* 2-3Tree */ = {
+		activeExec = 0;
+		executables = (
+			6BD306AE09227E410059AF32 /* 2-3Tree */,
+		);
+	};
+}

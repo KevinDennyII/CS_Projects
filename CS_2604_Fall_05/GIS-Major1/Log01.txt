@@ -1,0 +1,144 @@
+Command   1:  debug	location
+   *
+   *
+@
+   *
+      *
+      *
+   @
+         *
+         *
+      @
+         *
+            *
+            *
+         @
+               *
+               *
+            @
+                  *
+                  *
+               @
+                     *
+                     *
+                  @
+                     [  812]
+                        *
+                        *
+                     @
+                           *
+                           *
+                        @
+                              *
+                              *
+                           @
+                              *
+                                 *
+                                 *
+                              @
+                                 *
+                                    *
+                                    *
+                                 @
+                                    [  0]
+                                    [  709]
+                           *
+                        *
+                  [  217]
+               *
+               *
+               *
+            @
+                  *
+                  *
+               @
+                  [  584]
+                     *
+                     *
+                  @
+                        *
+                        *
+                     @
+                           *
+                           *
+                        @
+                           [  361]
+                           [  1024]
+                        [  916]
+                     [  113]
+               [  480]
+      *
+------------------------------------------------------------
+Command   2:  debug	FID
+------[1462389, 480]
+---[1462398, 709]
+------[1462399, 812]
+---------[1481269, 217]
+[1481276, 916]
+------[1495182, 0]
+---------[1674451, 113]
+---[1674452, 361]
+------[1674453, 584]
+---------[1674454, 1024]
+------------------------------------------------------------
+Command   3:  what_is_at	371636N	0801608W
+   The following features were found at 080 16 08 W   37 16 36 N:
+FID         : 1495182
+Name        : Acre of Rocks
+State       : VA
+County      : Montgomery
+Longitude   : 080 16 08 W
+Latitude    :  37 16 36 N
+Src Long    : n/a
+Src Lat     : n/a
+Elevation   : 2270
+Cell        : McDonalds Mill
+
+
+------------------------------------------------------------
+Command   4:  what_is_at	372056N	0801741W
+   The following features were found at 080 17 41 W   37 20 56 N:
+FID         : 1481269
+Name        : Aiken Dam Hollow
+State       : VA
+County      : Montgomery
+Longitude   : 080 17 41 W
+Latitude    :  37 20 56 N
+Src Long    : 080 17 52 W
+Src Lat     :  37 19 32 N
+Elevation   : n/a
+Cell        : McDonalds Mill
+
+
+------------------------------------------------------------
+Command   5:  what_is_at	371329N	0802528W
+   The following features were found at 080 25 28 W   37 13 29 N:
+FID         : 1674451
+Name        : Agnew Hall
+State       : VA
+County      : Montgomery
+Longitude   : 080 25 28 W
+Latitude    :  37 13 29 N
+Src Long    : n/a
+Src Lat     : n/a
+Elevation   : n/a
+Cell        : Blacksburg
+
+
+------------------------------------------------------------
+Command   6:  what_is	1481276
+FID         : 1481276
+Name        : Alleghany Church
+State       : VA
+County      : Montgomery
+Longitude   : 080 25 07 W
+Latitude    :  37 09 30 N
+Src Long    : n/a
+Src Lat     : n/a
+Elevation   : n/a
+Cell        : Blacksburg
+
+
+------------------------------------------------------------
+Command   7:  quit	
+------------------------------------------------------------

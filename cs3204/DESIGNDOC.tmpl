@@ -1,0 +1,279 @@
+---- HONOR CODE PLEDGE ----
+
+On my honor:
+
+- I have not discussed the C language code in my program with
+  anyone other than my instructor or the teaching assistants
+  assigned to this course.
+
+- I have not used C language code obtained from another student,
+  outside of my project group, or from any other unauthorized
+  source, either modified or unmodified.
+
+- If any C language code or documentation used in my program
+  was obtained from another source, except the course text book or 
+  course notes, that has been clearly noted with a proper citation in
+  the comments of my program and below.
+  
+			+--------------------+
+			|        CS 3204     |
+			| PROJECT 1: THREADS |
+			|   DESIGN DOCUMENT  |
+			+--------------------+
+				   
+---- GROUP ----
+
+>> Fill in the names and email addresses of your group members.
+
+Kevin Denny <kdenny2@vt.edu>
+Eric Lordahl <elordahl@vt.edu>
+Robert Houtman <houtman@vt.edu>
+Yanothan Taye <ypenny@vt.edu>
+
+---- PRELIMINARIES ----
+
+>> If you have any preliminary comments on your submission, notes for the
+>> TAs, or extra credit, please give them here.
+
+>> Please cite any offline or online sources you consulted while
+>> preparing your submission, other than the Pintos documentation, course
+>> text, lecture notes, and course staff.
+
+			     ALARM CLOCK
+			     ===========
+
+---- DATA STRUCTURES ----
+
+>> A1: Copy here the declaration of each new or changed `struct' or
+>> `struct' member, global or static variable, `typedef', or
+>> enumeration.  Identify the purpose of each in 25 words or less.
+
+struct thread
+	-int64_t wake_tick
+		- This variable stores the point in time that a sleeping thread is supposed to wake up
+
+static struct list block_list
+	-List of processes that are currently "blocked" from running.
+	
+
+---- ALGORITHMS ----
+
+>> A2: Briefly describe what happens in a call to timer_sleep(),
+>> including the effects of the timer interrupt handler.
+-Basically, timer_sleep is giving a fixed number of ticks to which a process is put to sleep. 
+A process is put into a loop in which the ticks are counted down.  Once awakened, a yield is called to switch priorities of process so that it can resume execution.
+
+>> A3: What steps are taken to minimize the amount of time spent in
+>> the timer interrupt handler?
+-The while loop creates minimal time to be spent in the interrupt handler by using a specified number of ticks.
+
+
+---- SYNCHRONIZATION ----
+
+>> A4: How are race conditions avoided when multiple threads call
+>> timer_sleep() simultaneously?
+-To control this, threads are given certain levels.  When threads are attempting to get shared resources, you disable interrupts so that when blocked and then awakened threads still have their same interrupt level.
+
+>> A5: How are race conditions avoided when a timer interrupt occurs
+>> during a call to timer_sleep()?
+-When threads are attempting to access shared resources, interrupts are disabled.  This allows threads to return to their given level after being awakened.
+
+---- RATIONALE ----
+
+>> A6: Why did you choose this design?  In what ways is it superior to
+>> another design you considered?
+-This desing is was what was thought of first and seem to be the more sufficient way of implementing the code. It seemed that his design would cause less havic.
+
+			 PRIORITY SCHEDULING
+			 ===================
+
+---- DATA STRUCTURES ----
+
+>> B1: Copy here the declaration of each new or changed `struct' or
+>> `struct' member, global or static variable, `typedef', or
+>> enumeration.  Identify the purpose of each in 25 words or less.
+
+int donatedPriority[8]
+	-list of donated priorities.  This is so that we are able to keep track of the threads with donated priorities
+
+struct lock *lTracker[8]
+	-pointer to a list of locks that have been acquired by a thread.
+
+int priority
+	-used to keep track of the priority of thread in the semaphore. 
+
+>> B2: Explain the data structure used to track priority donation.
+>> Use ASCII art to diagram a nested donation.  (Alternately, submit a
+>> .png file.)
+-The structure is a list that holds donated priorities.  
+Each priority has an index so that it identifiable and can be kept track of.
+
+Scenario:
+Thread A has priority of 4.
+Thread A currently has the lock L2.
+Thread B has priority of 6.
+Thread B currently has lock L1.
+Thread C has priority of 7.
+
+Thread A originally acquires lock L2.  A higher thread is created, B, and acquires lock L1.  
+As B tries to acquire Lock L1 it donates its priority to A in order to acquire the lock.  
+Thread C then comes along with the highest priority and tries to acquire lock L1, 
+by donating its priority to Thread B. The donation goes to A since Thread B has already donated priority to A.
+This then allows A to finish, then B, and finally C can finish.
+
+
+Thread A (4, L2)     Thread B(6, L1)
+      !                    !
+      !                    ! 
+      !                    !
+      !----B donates to A (Thread A(6, L2))   Thread C (7, no lock)
+                                                       ! 
+                                                       !
+                                                       !
+    C donates to B but goes to A(Thread A(7,L2))-------!  
+               !
+               !
+               !
+               !--Thread A now finishes which has a lock
+                     !
+                     !
+                     !---Thread B then finishes which also a lock
+                            !
+                            !
+                            !----Thread C then finishes acquiring a lock from A or B
+                   
+
+
+---- ALGORITHMS ----
+
+>> B3: How do you ensure that the highest priority thread waiting for
+>> a lock, semaphore, or condition variable wakes up first?
+-the priority of a thread is kept track of in the semaphore list, so that priorities can used to determine which thread shall awaken first.
+
+>> B4: Describe the sequence of events when a call to lock_acquire()
+>> causes a priority donation.  How is nested donation handled?
+-A donation is basically a thread with a higher priority waiting to be released. If priority donation occurs during the lock_acquire(), the thread in the donated priority list is given the highest the priority of the current thread.
+
+>> B5: Describe the sequence of events when lock_release() is called
+>> on a lock that a higher-priority thread is waiting for.
+-When lock_release is called, the lock is set to null and is given to sema_up being put in the semaphore list.
+
+
+---- SYNCHRONIZATION ----
+
+>> B6: Describe a potential race in thread_set_priority() and explain
+>> how your implementation avoids it.  Can you use a lock to avoid
+>> this race?
+-We avoid potential races by comparing priorities between the current thread and the thread on the front of the ready list.  If the highest priority between the two is thread in the ready list, a yield is made.
+
+---- RATIONALE ----
+
+>> B7: Why did you choose this design?  In what ways is it superior to
+>> another design you considered?
+-Having list helped to keep track of various threads and their properties rather than giving a thread the authority of keeping track of all actions encountered.
+
+			  ADVANCED SCHEDULER
+			  ==================
+
+---- DATA STRUCTURES ----
+
+>> C1: Copy here the declaration of each new or changed `struct' or
+>> `struct' member, global or static variable, `typedef', or
+>> enumeration.  Identify the purpose of each in 25 words or less.
+
+int threadNice
+	-keeps track of nice value of a thread.
+
+struct int read_list
+	-keeps tracks of number of threads in the ready list
+	
+struct list elem2
+	-used to put threads in the all_list
+
+struct list all_list
+	- a list of all threads; if thread becomes idle it is removed from the list
+
+fixed_point_t load_avg
+	-keeps track of fixed point value estimates the average number of threads ready to run over the past minute
+
+fixed_point_t recent_cpu
+	-keeps track of fixed point value calculated CPU time each process has received "recently".
+
+struct list ready_list[64]
+	- a ready list that is an array of list(seperate processes)
+
+
+---- ALGORITHMS ----
+
+>> C2: Suppose threads A, B, and C have nice values 0, 1, and 2.  Each
+>> has a recent_cpu value of 0.  Fill in the table below showing the
+>> scheduling decision and the priority and recent_cpu values for each
+>> thread after each given number of timer ticks:
+
+timer  recent_cpu    priority   thread
+ticks   A   B   C   A   B   C   to run
+-----  --  --  --  --  --  --   ------
+ 0      0   0   0   63  61  59    A
+ 4      4   0   0   62  61  59    A
+ 8      8   0   0   61  61  59    B
+12      8   4   0   61  60  59    A
+16     12   4   0   60  60  59    B
+20     12   8   0   60  59  59    A
+24     16   8   0   59  59  59    A
+28
+32
+36
+
+>> C3: Did any ambiguities in the scheduler specification make values
+>> in the table uncertain?  If so, what rule did you use to resolve
+>> them?  Does this match the behavior of your scheduler?
+-Some ambiguities in the specification that made the priority
+value uncertain.  We rounded to the neareast integer which was
+aligned with the behavior of our scheduler
+
+>> C4: How is the way you divided the cost of scheduling between code
+>> inside and outside interrupt context likely to affect performance?
+-We know that interrupts being disable for too long made the code and processes slow or may have timed
+and not run at all. Scheduling effects the time a thread interrupt is disabled 
+which may cause variations in the load_avg calculations
+
+---- RATIONALE ----
+
+>> C5: Briefly critique your design, pointing out advantages and
+>> disadvantages in your design choices.  If you were to have extra
+>> time to work on this part of the project, how might you choose to
+>> refine or improve your design?
+-Time was a key issue in implementation.  Everything was understood in what needed to be accomplished
+but was not put into action unfortunately.  Optimizing the design is key when implement "big" systems
+
+>> C6: The assignment explains arithmetic for fixed-point math in
+>> detail, but it leaves it open to you to implement it.  Why did you
+>> decide to implement it the way you did?  If you created an
+>> abstraction layer for fixed-point math, that is, an abstract data
+>> type and/or a set of functions or macros to manipulate fixed-point
+>> numbers, why did you do so?  If not, why not?
+-For error checking in values and speed of results
+
+			   SURVEY QUESTIONS
+			   ================
+
+Answering these questions is optional, but it will help us improve the
+course in future semesters.  Feel free to tell us anything you
+want--these questions are just to spur your thoughts.  You may also
+choose to respond anonymously in the course evaluations at the end of
+the quarter.
+
+>> In your opinion, was this assignment, or any one of the three problems
+>> in it, too easy or too hard?  Did it take too long or too little time?
+
+>> Did you find that working on a particular part of the assignment gave
+>> you greater insight into some aspect of OS design?
+
+>> Is there some particular fact or hint we should give students in
+>> future quarters to help them solve the problems?  Conversely, did you
+>> find any of our guidance to be misleading?
+
+>> Do you have any suggestions for the TAs to more effectively assist
+>> students, either for future quarters or the remaining projects?
+
+>> Any other comments?

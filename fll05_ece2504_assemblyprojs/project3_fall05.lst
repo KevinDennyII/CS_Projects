@@ -1,0 +1,39 @@
+MPASM  4.02 Released                      PROJECT3_FALL05.ASM   11-20-2005  18:37:58         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00001 ;Sample program to use while learning MPLAB
+                      00002 
+0000                  00003                 org             0x00
+0000   0103           00004                 clrw                    ;this is an error that we will fix
+0001   3E01           00005 loop    addlw   0x01
+0002   00A0           00006                 movwf   0x20
+0003   2801           00007                 goto    loop
+                      00008                 end             
+MPASM  4.02 Released                      PROJECT3_FALL05.ASM   11-20-2005  18:37:58         PAGE  2
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+__16F84                           00000001
+loop                              00000001
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+0000 : XXXX------------ ---------------- ---------------- ----------------
+
+All other memory blocks unused.
+
+Program Memory Words Used:     4
+Program Memory Words Free:  1020
+
+
+Errors   :     0
+Warnings :     0 reported,     0 suppressed
+Messages :     0 reported,     0 suppressed
+
+

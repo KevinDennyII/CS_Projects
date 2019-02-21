@@ -1,0 +1,54 @@
+
+This file is per student.
+Copy in the deduction from the implementation document from their group.
+
+HW2 DESIGN SUMMARY
+==================
+
+OVERALL
+
+  DOCUMENTATION
+
+  DESIGN
+    -5	Deduction from shared implementation part
+
+Subtotal: 5/10 (not capped)
+
+PROBLEM 1: ARGUMENT PASSING
+
+  DOCUMENTATION
+     -5 A4: Missing: Answer not correct
+ 
+  DESIGN
+    -18	Deduction from shared implementation part
+
+Subtotal: 7/30 (capped at 0)
+
+PROBLEM 2: SYSTEM CALLS
+
+  DOCUMENTATION
+    -10 Minor inaccuracies: documentation and code differ: The design doc says
+		the file table is global whereas the implementation shows its unique to a
+		process
+     -3 B3: Missing: Does not answer the question. Question is how would you
+	 	access user memory, if you had written some get_user functions you should
+	 	mention that
+     -6 B4: Missing: No answer!
+     -6 B10: Missing: No answer!
+
+  DESIGN
+    -10	Deduction from shared implementation part
+
+Subtotal: 25/60 (capped at 0)
+
+// add subtotals together
+Total for design part:   37/100
+
+// use number from grade file here:
+Total for tests:         100/100
+
+// compute zzz = ceil((xxx+yyy)/2)
+Total Score:             69/100
+
+TA Comments: Try to answer the questions asked in the design document. Leaving
+the question without answering makes you lose valuable scores.

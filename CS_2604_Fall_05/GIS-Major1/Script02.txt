@@ -1,0 +1,24 @@
+; Sample script
+;
+; Specify boundaries of coordinate space:
+world	0813000W	0783000W	353000N	383000N
+;
+; Check the indices:
+debug	location
+debug	FID
+;
+; Perform some exact coordinate searches:
+what_is_at	371636N	0801608W
+what_is_at	372056N	0801741W
+what_is_at	371349N	0802944W
+;
+; Perform an couple of FID searches:
+what_is	1481276
+what_is	1674451
+;
+; Try a couple of failed searches:
+what_is_at	372955N	0800225W
+what_is	1234567
+;
+; Exit
+quit	

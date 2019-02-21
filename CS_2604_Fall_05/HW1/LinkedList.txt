@@ -1,0 +1,85 @@
+#include <list>
+#include<iostream>
+//list<int>
+using namespace std;
+
+/*SymmetricDifference()- 
+Parameters: const list<int>& L1, const list<int>& L2
+Pre:    none
+Post:  Returns a newly created list of objects that are not in both L1 & L2. 
+*/
+//template <typename T>
+list<int> SymmetricDifference(const list<int>& L1, const list<int>& L2)
+{
+	bool found;
+	list<int> L3;
+
+	// for loop for the 1st list
+	for(list<int>::const_iterator Pos1 = L1.begin(); Pos1 != L1.end(); Pos1++)
+	{
+			found = false;
+		    // for loop for the 2nd list
+			for(list<int>::const_iterator Pos2 = L2.begin(); Pos2 != L2.end(); Pos2++)
+			{
+				if(*Pos1 == *Pos2)
+				{
+					found = true;
+				}
+				//else 
+				//	found = false;
+			}
+		
+			if(!found)
+			{
+				L3.insert(L3.end(), *Pos1);
+			}
+			
+	}
+
+	for(list<int>::const_iterator Pos2 = L2.begin(); Pos2 != L2.end(); Pos2++)
+	{
+			found = false;
+		    // for loop for the 2nd list
+			for(list<int>::const_iterator Pos1 = L1.begin(); Pos1 != L1.end(); Pos1++)
+			{
+				if(*Pos2 == *Pos1)
+				{
+					found = true;
+				}
+				//else 
+				//	found = false;
+			}
+		
+			if(!found)
+			{
+				L3.insert(L3.end(), *Pos2);
+			}	
+	}
+	return L3;
+}
+
+/*Split()- 
+Parameters: list<int>& frontHalf, list<int>& backHalf
+Pre:    none
+Post:  Returns 2 newly created lists of objects of an original list split in half 
+*/
+//template <typename T>
+void Split(list<int>& frontHalf, list<int>& backHalf) //const
+{
+	//variable and constant iterator for the original list
+	list<int> whole;
+	list<int>::const_iterator Pos = whole.begin();
+
+	//iterators for front and back(not constant b/c i am adding to those list)
+	list<int>::iterator Pos1 = frontHalf.begin();
+	list<int>::iterator Pos2 = backHalf.begin();
+
+	//while there is nothing in the list or when there is only one element
+	while((Pos1!= Pos2) || (Pos != whole.end()))
+	{
+		frontHalf.insert(frontHalf.end(), *Pos);
+		Pos--;//updating the list until last element
+		backHalf.insert(backHalf.end(), *Pos);
+		
+	}
+}

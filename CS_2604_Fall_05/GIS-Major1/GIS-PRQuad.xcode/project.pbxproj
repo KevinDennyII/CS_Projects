@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		014CEA460018CE2711CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA470018CE2711CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//080
+//081
+//082
+//083
+//084
+		08FB7793FE84155DC02AAC07 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA460018CE2711CA2923,
+				014CEA470018CE2711CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 08FB7794FE84155DC02AAC07;
+			projectDirPath = "";
+			targets = (
+				8DD76F620486A84900D96B5E,
+			);
+		};
+		08FB7794FE84155DC02AAC07 = {
+			children = (
+				6B2669B008FCCEB600267B0C,
+				6B2669AE08FCCE9200267B0C,
+				6BD3B37708F63CAC004E94DA,
+				6B3485D308FF78840059A14D,
+				08FB7795FE84155DC02AAC07,
+				C6859E8C029090F304C91782,
+				1AB674ADFE9D54B511CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "GIS-PRQuad";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 = {
+			children = (
+				6BD4EFA50910BB1A000F25A5,
+				6B760F42090F47220031FD81,
+				6B396A610909BB87006B98F4,
+				6B2669B808FCCFB700267B0C,
+				6B47FAEA08F6232600DC4C1B,
+				6B47FAEB08F6232600DC4C1B,
+				6B34856B08FF66430059A14D,
+				6B2669B108FCCEB600267B0C,
+				6B47FAEC08F6232600DC4C1B,
+				6B47FAED08F6232600DC4C1B,
+				6B760F18090F2B660031FD81,
+				6B760F12090F2B560031FD81,
+				6B760F13090F2B560031FD81,
+				6B760F14090F2B560031FD81,
+				6B47FAEE08F6232600DC4C1B,
+			);
+			isa = PBXGroup;
+			name = Source;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//1A0
+//1A1
+//1A2
+//1A3
+//1A4
+		1AB674ADFE9D54B511CA2CBB = {
+			children = (
+				8DD76F6C0486A84900D96B5E,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//1A0
+//1A1
+//1A2
+//1A3
+//1A4
+//6B0
+//6B1
+//6B2
+//6B3
+//6B4
+		6B2669AE08FCCE9200267B0C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = Log01.txt;
+			path = "../Desktop/CS_2604_Fall_05/GIS_PRQuadTree-Major1/Log01.txt";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B2669AF08FCCE9200267B0C = {
+			fileRef = 6B2669AE08FCCE9200267B0C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B2669B008FCCEB600267B0C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = Script01.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B2669B108FCCEB600267B0C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = SmallMontgomeryCounty.txt;
+			path = "../Desktop/CS_2604_Fall_05/GIS_PRQuadTree-Major1/SmallMontgomeryCounty.txt";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B2669B208FCCEB600267B0C = {
+			fileRef = 6B2669B008FCCEB600267B0C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B2669B308FCCEB600267B0C = {
+			fileRef = 6B2669B108FCCEB600267B0C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B2669B808FCCFB700267B0C = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = geoRecord.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B2669BA08FCCFB700267B0C = {
+			fileRef = 6B2669B808FCCFB700267B0C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B34856B08FF66430059A14D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = MontgomeryCounty.txt;
+			path = "../Desktop/CS_2604_Fall_05/GIS_PRQuadTree-Major1/MontgomeryCounty.txt";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B34856C08FF66430059A14D = {
+			fileRef = 6B34856B08FF66430059A14D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B3485D308FF78840059A14D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = SmallMontgomeryCounty.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B3485D408FF78840059A14D = {
+			fileRef = 6B3485D308FF78840059A14D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B396A610909BB87006B98F4 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = geoRecord.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B396A620909BB87006B98F4 = {
+			fileRef = 6B396A610909BB87006B98F4;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B47FAEA08F6232600DC4C1B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = BinNodeT.h;
+			path = "../Desktop/CS_2604_Fall_05/GIS_PRQuadTree-Major1/BinNodeT.h";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B47FAEB08F6232600DC4C1B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = BST.h;
+			path = "../Desktop/CS_2604_Fall_05/GIS_PRQuadTree-Major1/BST.h";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B47FAEC08F6232600DC4C1B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = Controller.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B47FAED08F6232600DC4C1B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = Controller.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B47FAEE08F6232600DC4C1B = {
+			explicitFileType = sourcecode.cpp.h;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = FileManager.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B47FAF008F6232600DC4C1B = {
+			fileRef = 6B47FAEA08F6232600DC4C1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B47FAF108F6232600DC4C1B = {
+			fileRef = 6B47FAEB08F6232600DC4C1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B47FAF308F6232600DC4C1B = {
+			fileRef = 6B47FAED08F6232600DC4C1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B47FAF408F6232600DC4C1B = {
+			fileRef = 6B47FAEE08F6232600DC4C1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B760F12090F2B560031FD81 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = prQuadLeaf.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B760F13090F2B560031FD81 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = prQuadNode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B760F14090F2B560031FD81 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = prQuadTree.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B760F15090F2B560031FD81 = {
+			fileRef = 6B760F12090F2B560031FD81;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B760F16090F2B560031FD81 = {
+			fileRef = 6B760F13090F2B560031FD81;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B760F17090F2B560031FD81 = {
+			fileRef = 6B760F14090F2B560031FD81;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B760F18090F2B660031FD81 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = Singleton.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B760F19090F2B660031FD81 = {
+			fileRef = 6B760F18090F2B660031FD81;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B760F42090F47220031FD81 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = prQuadInternal.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6B760F43090F47220031FD81 = {
+			fileRef = 6B760F42090F47220031FD81;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6BD3B37708F63CAC004E94DA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = main.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6BD3B37808F63CAC004E94DA = {
+			fileRef = 6BD3B37708F63CAC004E94DA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6BD4EFA50910BB1A000F25A5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = prQuadTest.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6BD4EFA70910BB1A000F25A5 = {
+			fileRef = 6BD4EFA50910BB1A000F25A5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6BF990990913D7AB00C40778 = {
+			fileRef = 6B47FAEC08F6232600DC4C1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//6B0
+//6B1
+//6B2
+//6B3
+//6B4
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+		8DD76F620486A84900D96B5E = {
+			buildPhases = (
+				8DD76F640486A84900D96B5E,
+				8DD76F660486A84900D96B5E,
+				8DD76F690486A84900D96B5E,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = "GIS-PRQuad";
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = "GIS-PRQuad";
+			productInstallPath = "$(HOME)/bin";
+			productName = "GIS-PRQuad";
+			productReference = 8DD76F6C0486A84900D96B5E;
+			productType = "com.apple.product-type.tool";
+		};
+		8DD76F640486A84900D96B5E = {
+			buildActionMask = 2147483647;
+			files = (
+				6B47FAF408F6232600DC4C1B,
+				6BD3B37808F63CAC004E94DA,
+				6B2669BA08FCCFB700267B0C,
+				6B396A620909BB87006B98F4,
+				6BD4EFA70910BB1A000F25A5,
+				6BF990990913D7AB00C40778,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F660486A84900D96B5E = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F690486A84900D96B5E = {
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				6B47FAF008F6232600DC4C1B,
+				6B47FAF108F6232600DC4C1B,
+				6B47FAF308F6232600DC4C1B,
+				6B2669AF08FCCE9200267B0C,
+				6B2669B208FCCEB600267B0C,
+				6B2669B308FCCEB600267B0C,
+				6B34856C08FF66430059A14D,
+				6B3485D408FF78840059A14D,
+				6B760F15090F2B560031FD81,
+				6B760F16090F2B560031FD81,
+				6B760F17090F2B560031FD81,
+				6B760F19090F2B660031FD81,
+				6B760F43090F47220031FD81,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8DD76F6C0486A84900D96B5E = {
+			explicitFileType = "compiled.mach-o.executable";
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = "GIS-PRQuad";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+//C60
+//C61
+//C62
+//C63
+//C64
+		C6859E8C029090F304C91782 = {
+			children = (
+			);
+			isa = PBXGroup;
+			name = Documentation;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = 08FB7793FE84155DC02AAC07;
+}

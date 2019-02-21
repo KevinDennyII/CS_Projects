@@ -1,0 +1,17 @@
+(define (mapcar fun lis)
+  (CON
+   ((NULL? lis) '())
+   (ELSE CONS (fun (CAR lis))(mapcar fun (CDR lis)))))
+
+(define (add x y)(+ x y))
+#|(add var1 var2)|#
+(define (sub x y)(- x y))
+#|(sub var2 var1)|#
+(define (mult x y)(* x y))
+#|(mult var1 var2)|#
+(define (rdiv x y)(/ x y))
+#|(rdiv var2 var1)|#
+(define power
+  (lambda( x y) 
+    (cond((eqv? y 0) 1)
+         ((> y 0) (* (power x (- y 1)) x)))))

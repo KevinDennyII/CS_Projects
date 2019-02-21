@@ -1,0 +1,64 @@
+ inside Prquadtree insert 
+Consecs W:	degrees:81	minutes:00	seconds:00
+ W conversion:	deg:291600	min:0	sec:0
+-291600
+Consecs N:	degrees:36	minutes:00	seconds:00
+129600
+Consecs W:	degrees:79	minutes:00	seconds:00
+ W conversion:	deg:284400	min:0	sec:0
+-284400
+Consecs N:	degrees:38	minutes:00	seconds:00
+136800
+inside Singleton insert
+in prQuadLeaf insert
+flag is false
+Element for false:	1495182
+in prQuadLeaf insert
+flag is true
+in Internal retrieving data's coordinates:	134196  -291592
+x1:-291600 x2:-284400 y1:129600 y2:136800
+in prQuadInternal insert
+in NW node 
+in Internal retrieving data's coordinates:	134196  -291592
+x1:-291600 x2:-288000 y1:133200 y2:136800
+in prQuadInternal insert
+in SW node 
+in Internal retrieving data's coordinates:	134196  -291592
+x1:-291600 x2:-289800 y1:133200 y2:135000
+in prQuadInternal insert
+in NW node 
+in Internal retrieving data's coordinates:	134196  -291592
+x1:-291600 x2:-290700 y1:134100 y2:135000
+in prQuadInternal insert
+in SW node 
+in Internal retrieving data's coordinates:	134196  -291592
+x1:-291600 x2:-291150 y1:134100 y2:134550
+in prQuadInternal insert
+in SW node 
+in Internal retrieving data's coordinates:	134196  -291592
+x1:-291600 x2:-291375 y1:134100 y2:134325
+in prQuadInternal insert
+in SW node 
+in Internal retrieving data's coordinates:	134196  -291592
+x1:-291600 x2:-291488 y1:134100 y2:134212
+in prQuadInternal insert
+in NW node 
+in Internal retrieving data's coordinates:	134196  -291592
+x1:-291600 x2:-291544 y1:134156 y2:134212
+in prQuadInternal insert
+in NW node 
+in Internal retrieving data's coordinates:	134196  -291592
+x1:-291600 x2:-291572 y1:134184 y2:134212
+in prQuadInternal insert
+in SW node 
+in Internal retrieving data's coordinates:	134196  -291592
+x1:-291600 x2:-291586 y1:134184 y2:134198
+in prQuadInternal insert
+in NE node 
+in Internal retrieving data's coordinates:	134196  -291592
+x1:-291593 x2:-291586 y1:134191 y2:134184
+in prQuadInternal insert
+in Internal retrieving data's coordinates:	134456  -284408
+x1:-291600 x2:-284400 y1:129600 y2:136800
+in prQuadInternal insert
+in NE node 

@@ -1,0 +1,657 @@
+1495182|VA|Acre of Rocks|summit|Montgomery|51|121|371636N|0801608W|37.27667|-80.26889|||||2270|||McDonalds Mill
+1674451|VA|Agnew Hall|building|Montgomery|51|121|371329N|0802528W|37.22472|-80.42444||||||||Blacksburg
+1481269|VA|Aiken Dam Hollow|valley|Montgomery|51|121|372056N|0801741W|37.34889|-80.29472|371932N|0801752W|37.32556|-80.29778||||McDonalds Mill
+1674452|VA|Airport Acres (subdivision)|ppl|Montgomery|51|121|371238N|0802427W|37.21056|-80.4075|||||2125|||Blacksburg
+1462389|VA|Alburn High School|school|Montgomery|51|121|370341N|0802633W|37.06139|-80.4425||||||||Riner
+1674453|VA|Alleghany Addition (subdivision)|ppl|Montgomery|51|121|370744N|0802350W|37.12889|-80.39722|||||2120|||Blacksburg
+1462398|VA|Alleghany Church|church|Montgomery|51|121|370726N|0801610W|37.12389|-80.26944||||||||Pilot
+1462399|VA|Alleghany Church|church|Montgomery|51|121|370925N|0801519W|37.15694|-80.25528||||||||Ironto
+1481276|VA|Alleghany Church|church|Montgomery|51|121|370930N|0802507W|37.15833|-80.41861||||||||Blacksburg
+1674454|VA|Alleghany Heights (subdivision)|ppl|Montgomery|51|121|371509N|0802447W|37.2525|-80.41306|||||2220|||Newport
+1674455|VA|Alleghany School (historical)|school|Montgomery|51|121|370812N|0801519W|37.13667|-80.25528||||||||Ironto
+1674456|VA|Alleghany School (historical)|school|Montgomery|51|121|370921N|0802430W|37.15583|-80.40833||||||||Blacksburg
+1674457|VA|Alleghany Spring School (historical)|school|Montgomery|51|121|370706N|0801602W|37.11833|-80.26722||||||||Pilot
+1462400|VA|Alleghany Springs|ppl|Montgomery|51|121|370741N|0801555W|37.12806|-80.26528|||||1399|||Ironto
+1481287|VA|Allen Hollow|valley|Montgomery|51|121|372001N|0801939W|37.33361|-80.3275|371849N|0801938W|37.31361|-80.32722||||McDonalds Mill
+1462408|VA|Allen Hollow|valley|Montgomery|51|121|370849N|0801614W|37.14694|-80.27056|370937N|0801636W|37.16028|-80.27667||||Ironto
+1674458|VA|Altoona School (historical)|school|Montgomery|51|121|370425N|0801805W|37.07361|-80.30139||||||||Pilot
+1674459|VA|Ambler Johnston Hall|building|Montgomery|51|121|371323N|0802517W|37.22306|-80.42139||||||||Blacksburg
+1481314|VA|Anderson Cemetery|cemetery|Montgomery|51|121|371519N|0802058W|37.25528|-80.34944||||||||McDonalds Mill
+1674460|VA|Apperson Park (subdivision)|ppl|Montgomery|51|121|371425N|0802413W|37.24028|-80.40361|||||2220|||Blacksburg
+1674461|VA|Apple Acres (subdivision)|ppl|Montgomery|51|121|370923N|0802508W|37.15639|-80.41889|||||2130|||Blacksburg
+1674462|VA|Asbury Methodist Church|church|Montgomery|51|121|370800N|0802436W|37.13333|-80.41||||||||Blacksburg
+1674463|VA|Atkinson Acres (subdivision)|ppl|Montgomery|51|121|370712N|0802436W|37.12|-80.41|||||2060|||Riner
+1481363|VA|Austin Hollow|valley|Montgomery|51|121|371621N|0801822W|37.2725|-80.30611|371617N|0801657W|37.27139|-80.2825||||McDonalds Mill
+1462695|VA|Bain Chapel|church|Montgomery|51|121|370536N|0803150W|37.09333|-80.53056|||||2116|||Radford South
+1674464|VA|Bangs (historical)|ppl|Montgomery|51|121|370828N|0802407W|37.14111|-80.40194|||||2029|||Blacksburg
+1674465|VA|Barringer Hall|building|Montgomery|51|121|371334N|0802502W|37.22611|-80.41722||||||||Blacksburg
+1481476|VA|Barringer Mountain|summit|Montgomery|51|121|370817N|0802809W|37.13806|-80.46917|||||2342|||Blacksburg
+1477097|VA|Basham|ppl|Montgomery|51|121|370210N|0802034W|37.03611|-80.34278|||||2430|||Pilot
+1481600|VA|Beeks School|school|Montgomery|51|121|371249N|0802423W|37.21361|-80.40639||||||||Blacksburg
+1481617|VA|Belmont|ppl|Montgomery|51|121|370946N|0802650W|37.16278|-80.44722|||||2071|||Blacksburg
+1481618|VA|Belmont Church|church|Montgomery|51|121|370953N|0802728W|37.16472|-80.45778||||||||Blacksburg
+1674466|VA|Belmont Community Cemetery|cemetery|Montgomery|51|121|370954N|0802730W|37.165|-80.45833||||||||Blacksburg
+1674467|VA|Belmont Estates|ppl|Montgomery|51|121|371007N|0802630W|37.16861|-80.44167|||||2040|||Blacksburg
+1488712|VA|Belmont Farms|ppl|Montgomery|51|121|370922N|0802650W|37.15611|-80.44722|||||2060|||Blacksburg
+1674468|VA|Belmont School (historical)|school|Montgomery|51|121|370947N|0802715W|37.16306|-80.45417||||||||Blacksburg
+1481620|VA|Belview School|school|Montgomery|51|121|371014N|0803042W|37.17056|-80.51167||||||||Radford North
+1481629|VA|Bennett Cemetery|cemetery|Montgomery|51|121|371555N|0801944W|37.26528|-80.32889||||||||McDonalds Mill
+1490430|VA|Bennetts Dam|dam|Montgomery|51|121|370500N|0802600W|37.08333|-80.43333||||||||Riner
+1495259|VA|Bennetts Mill|ppl|Montgomery|51|121|371542N|0802021W|37.26167|-80.33917|||||1600|||McDonalds Mill
+1674469|VA|Berryfield (subdivision)|ppl|Montgomery|51|121|371346N|0802435W|37.22944|-80.40972|||||2100|||Blacksburg
+1463122|VA|Bethany Church|church|Montgomery|51|121|370048N|0802844W|37.01333|-80.47889||||||||Riner
+1674470|VA|Bethel Church (historical)|church|Montgomery|51|121|370601N|0803045W|37.10028|-80.5125||||||||Radford South
+1463214|VA|Bethel School|school|Montgomery|51|121|370605N|0803055W|37.10139|-80.51528|||||2084|||Radford South
+1481678|VA|Betsy Boating Hollow|valley|Montgomery|51|121|371954N|0802009W|37.33167|-80.33583|371847N|0801948W|37.31306|-80.33||||McDonalds Mill
+1674471|VA|Beverly Hills (subdivision)|ppl|Montgomery|51|121|370735N|0802409W|37.12639|-80.4025|||||2160|||Blacksburg
+1463327|VA|Big Branch|stream|Montgomery|51|121|370008N|0803029W|37.00222|-80.50806|370148N|0802909W|37.03|-80.48583||||Radford South
+1481725|VA|Big Falls|falls|Montgomery|51|121|371439N|0803623W|37.24417|-80.60639||||||||Radford North
+1481726|VA|Big Ford Hollow|valley|Montgomery|51|121|371924N|0802157W|37.32333|-80.36583|371832N|0802149W|37.30889|-80.36361||||McDonalds Mill
+1463373|VA|Big Laurel Creek|stream|Montgomery|51|121|370808N|0801004W|37.13556|-80.16778|371104N|0800958W|37.18444|-80.16611||||Elliston
+1481779|VA|Big Run|stream|Montgomery|51|121|371305N|0803143W|37.21806|-80.52861|371306N|0802928W|37.21833|-80.49111||||Radford North
+1674472|VA|Big Spring Baptist Church|church|Montgomery|51|121|371258N|0801345W|37.21611|-80.22917||||||||Elliston
+1674473|VA|Big Tunnel|tunnel|Montgomery|51|121|370930N|0801900W|37.15833|-80.31667||||||||Ironto
+1463464|VA|Bishop Hollow|valley|Montgomery|51|121|370546N|0801503W|37.09611|-80.25083|370502N|0801725W|37.08389|-80.29028||||Pilot
+1498405|VA|Blacksburg|ppl|Montgomery|51|121|371346N|0802451W|37.22944|-80.41417|||||2080|39573||Blacksburg
+1674474|VA|Blacksburg Area Branch Library|building|Montgomery|51|121|371334N|0802446W|37.22611|-80.41278||||||||Blacksburg
+1674475|VA|Blacksburg City Hall|building|Montgomery|51|121|371350N|0802452W|37.23056|-80.41444||||||||Blacksburg
+1488706|VA|Blacksburg High School|school|Montgomery|51|121|371432N|0802425W|37.24222|-80.40694|||||2222|||Blacksburg
+1674477|VA|Blacksburg Historic District|park|Montgomery|51|121|371355N|0802500W|37.23194|-80.41667||||||||Blacksburg
+1674478|VA|Blacksburg Middle School|school|Montgomery|51|121|371337N|0802438W|37.22694|-80.41056||||||||Blacksburg
+1674479|VA|Blacksburg Post Office|po|Montgomery|51|121|371348N|0802453W|37.23|-80.41472||||||||Blacksburg
+1674480|VA|Blacksburg Presbyterian Church|church|Montgomery|51|121|371331N|0802428W|37.22528|-80.40778||||||||Blacksburg
+1488691|VA|Blacksburg Ranger Station|locale|Montgomery|51|121|371634N|0802517W|37.27611|-80.42139|||||2060|||Newport
+1674485|VA|Blacksburg United Methodist Church|church|Montgomery|51|121|371347N|0802446W|37.22972|-80.41278||||||||Blacksburg
+1674481|VA|Blackwood (subdivision)|ppl|Montgomery|51|121|371309N|0802352W|37.21917|-80.39778|||||2220|||Blacksburg
+1674482|VA|Blake Forest|ppl|Montgomery|51|121|370837N|0801959W|37.14361|-80.33306|||||2120|||Ironto
+1674483|VA|Blakenship Farm|locale|Montgomery|51|121|371102N|0802214W|37.18389|-80.37056||||||||Ironto
+1481843|VA|Blankenship Hollow|valley|Montgomery|51|121|371753N|0801644W|37.29806|-80.27889|371724N|0801612W|37.29|-80.27||||McDonalds Mill
+1674484|VA|Blue Ridge Court (subdivision)|ppl|Montgomery|51|121|370737N|0802250W|37.12694|-80.38056|||||2170|||Blacksburg
+1463656|VA|Bonys Run|stream|Montgomery|51|121|370945N|0801431W|37.1625|-80.24194|370806N|0801501W|37.135|-80.25028||||Elliston
+1463657|VA|Bonys Run Church|church|Montgomery|51|121|370900N|0801448W|37.15|-80.24667||||||||Elliston
+1463674|VA|Booth Hollow|valley|Montgomery|51|121|370327N|0802055W|37.0575|-80.34861|370440N|0802154W|37.07778|-80.365||||Pilot
+1463693|VA|Bottom Creek|stream|Montgomery|51|121|370606N|0801313W|37.10167|-80.22028|371153N|0800848W|37.19806|-80.14667||||Check
+1463694|VA|Bottom Creek Church|church|Montgomery|51|121|370756N|0801050W|37.13222|-80.18056||||||||Elliston
+1481968|VA|Bradshaw Creek|stream|Montgomery|51|121|371357N|0801514W|37.2325|-80.25389|371928N|0801020W|37.32444|-80.17222||||Ironto
+1463748|VA|Brake Branch|stream|Montgomery|51|121|371301N|0801404W|37.21694|-80.23444|371038N|0801228W|37.17722|-80.20778||||Elliston
+1674486|VA|Brightwood Manor|ppl|Montgomery|51|121|371327N|0802645W|37.22417|-80.44583|||||2080|||Blacksburg
+1463856|VA|Broad Shoals|bar|Montgomery|51|121|370112N|0802648W|37.02|-80.44667||||||||Riner
+1674487|VA|Broad Shoals Ford|crossing|Montgomery|51|121|370115N|0802651W|37.02083|-80.4475||||||||Riner
+1674488|VA|Brodie Hall|building|Montgomery|51|121|371348N|0802513W|37.23|-80.42028||||||||Blacksburg
+1482049|VA|Bruisers Knob|summit|Montgomery|51|121|372111N|0802038W|37.35306|-80.34389|||||3448|||McDonalds Mill
+1674489|VA|Brumfield Acres (subdivision)|ppl|Montgomery|51|121|370834N|0802400W|37.14278|-80.4|||||2070|||Blacksburg
+1463944|VA|Brush Creek|stream|Montgomery|51|121|370052N|0802416W|37.01444|-80.40444|370326N|0801625W|37.05722|-80.27361||||Riner
+1495316|VA|Brush Harbor|ppl|Montgomery|51|121|371103N|0801728W|37.18417|-80.29111|||||1660|||Ironto
+1488734|VA|Brush Mountain Horse Trail|trail|Montgomery|51|121|371528N|0802837W|37.25778|-80.47694|||||2843|||Newport
+1463997|VA|Buck Shoals Branch|stream|Montgomery|51|121|370035N|0802350W|37.00972|-80.39722|370110N|0802310W|37.01944|-80.38611||||Riner
+1674490|VA|Burke Johnson Student Center|building|Montgomery|51|121|371344N|0802530W|37.22889|-80.425||||||||Blacksburg
+1674491|VA|Burruss Administration Building|building|Montgomery|51|121|371343N|0802527W|37.22861|-80.42417||||||||Blacksburg
+1496828|VA|Cabes Hill|summit|Montgomery|51|121|370622N|0801643W|37.10611|-80.27861|||||2040|||Pilot
+1488692|VA|Caldwell Fields Recreation Site|locale|Montgomery|51|121|372013N|0801933W|37.33694|-80.32583|||||1702|||McDonalds Mill
+1464249|VA|Calfee Knob|summit|Montgomery|51|121|370157N|0802909W|37.0325|-80.48583|||||2813|||Riner
+1464250|VA|Calfhill Hollow|valley|Montgomery|51|121|371017N|0801647W|37.17139|-80.27972|371033N|0801725W|37.17583|-80.29028||||Ironto
+1464253|VA|Calhoun Run|stream|Montgomery|51|121|370744N|0801558W|37.12889|-80.26611|370816N|0801435W|37.13778|-80.24306||||Ironto
+1674492|VA|Cambria|ppl|Montgomery|51|121|370835N|0802346W|37.14306|-80.39611|||||2100|||Blacksburg
+1674493|VA|Cambria Baptist Church|church|Montgomery|51|121|370834N|0802419W|37.14278|-80.40528||||||||Blacksburg
+1674494|VA|Cambria Historic District|park|Montgomery|51|121|370829N|0802419W|37.14139|-80.40528||||||||Blacksburg
+1464303|VA|Camp Alta Mons|locale|Montgomery|51|121|370539N|0801512W|37.09417|-80.25333||||||||Pilot
+1464315|VA|Camp Carysbrook|locale|Montgomery|51|121|370048N|0802728W|37.01333|-80.45778||||||||Riner
+1464338|VA|Camp Kiwanianna|locale|Montgomery|51|121|370657N|0801208W|37.11583|-80.20222||||||||Check
+1674495|VA|Campbell Hall|building|Montgomery|51|121|371334N|0802520W|37.22611|-80.42222||||||||Blacksburg
+1674496|VA|Canterbury (subdivision)|ppl|Montgomery|51|121|370648N|0802416W|37.11333|-80.40444|||||2160|||Riner
+1674497|VA|Carma Heights|ppl|Montgomery|51|121|370955N|0802614W|37.16528|-80.43722|||||2090|||Blacksburg
+1674498|VA|Carriage Hill (subdivision)|ppl|Montgomery|51|121|371238N|0802342W|37.21056|-80.395|||||2110|||Blacksburg
+1674499|VA|Cassel Coliseum|building|Montgomery|51|121|371321N|0802510W|37.2225|-80.41944||||||||Blacksburg
+1674500|VA|Cedar Orchard|ppl|Montgomery|51|121|371405N|0802349W|37.23472|-80.39694|||||2260|||Blacksburg
+1482415|VA|Cedar Run|stream|Montgomery|51|121|371121N|0802133W|37.18917|-80.35917|371203N|0802416W|37.20083|-80.40444||||Ironto
+1482422|VA|Centennial Church|church|Montgomery|51|121|371309N|0803554W|37.21917|-80.59833||||||||Radford North
+1674501|VA|Center Mills (historical)|locale|Montgomery|51|121|370350N|0803227W|37.06389|-80.54083|||||1940|||Radford South
+1499231|VA|Centerville|ppl|Montgomery|51|121|371011N|0803219W|37.16972|-80.53861|||||1960|||Radford North
+1674502|VA|Charlton Cemetery|cemetery|Montgomery|51|121|370857N|0802655W|37.14917|-80.44861||||||||Blacksburg
+1674503|VA|Cheatham Hall|building|Montgomery|51|121|371326N|0802522W|37.22389|-80.42278||||||||Blacksburg
+1674504|VA|Chestnut Ridge School (historical)|school|Montgomery|51|121|370047N|0802845W|37.01306|-80.47917||||||||Riner
+1477201|VA|Childress|ppl|Montgomery|51|121|370322N|0803017W|37.05611|-80.50472|||||1954|||Radford South
+1674505|VA|Childress School (historical)|school|Montgomery|51|121|370342N|0802955W|37.06167|-80.49861||||||||Riner
+1674506|VA|Chowning Place|ppl|Montgomery|51|121|371300N|0802645W|37.21667|-80.44583|||||2040|||Blacksburg
+1674507|VA|Christ Episcopal Church|church|Montgomery|51|121|371350N|0802450W|37.23056|-80.41389||||||||Blacksburg
+1482529|VA|Christian Fellowship Evangelistic Tabernacle|church|Montgomery|51|121|370748N|0802713W|37.13|-80.45361||||||||Blacksburg
+1738264|VA|Christianburg Industrial Institute (historical)|school|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Blacksburg
+1498467|VA|Christiansburg|ppl|Montgomery|51|121|370747N|0802433W|37.12972|-80.40917|||||2100|16947||Blacksburg
+1674508|VA|Christiansburg Church of the Brethren|church|Montgomery|51|121|370738N|0802419W|37.12722|-80.40528||||||||Blacksburg
+1674509|VA|Christiansburg City Hall|building|Montgomery|51|121|370752N|0802428W|37.13111|-80.40778||||||||Blacksburg
+1674510|VA|Christiansburg Elementary School|school|Montgomery|51|121|370804N|0802501W|37.13444|-80.41694||||||||Blacksburg
+1674511|VA|Christiansburg High School|school|Montgomery|51|121|370843N|0802505W|37.14528|-80.41806||||||||Blacksburg
+1674512|VA|Christiansburg Industrial School (historical)|school|Montgomery|51|121|370834N|0802503W|37.14278|-80.4175||||||||Blacksburg
+1482533|VA|Christiansburg Institute|school|Montgomery|51|121|370833N|0802502W|37.1425|-80.41722||||||||Blacksburg
+1674513|VA|Christiansburg Middle School|school|Montgomery|51|121|370742N|0802452W|37.12833|-80.41444||||||||Blacksburg
+1674514|VA|Christiansburg Post Office|po|Montgomery|51|121|370748N|0802433W|37.13|-80.40917||||||||Blacksburg
+1674518|VA|Christiansburg Presbyterian Church|church|Montgomery|51|121|370742N|0802440W|37.12833|-80.41111||||||||Blacksburg
+1674515|VA|Christiansburg Primary School|school|Montgomery|51|121|370757N|0802457W|37.1325|-80.41583||||||||Blacksburg
+1674516|VA|Christiansburg Primary School Number 1 (historical)|school|Montgomery|51|121|370754N|0802416W|37.13167|-80.40444||||||||Blacksburg
+1674517|VA|Christiansburg Primary School Number 2 (historical)|school|Montgomery|51|121|370804N|0802417W|37.13444|-80.40472||||||||Blacksburg
+1674519|VA|Christiansburg Recreation Center|park|Montgomery|51|121|370746N|0802443W|37.12944|-80.41194||||||||Blacksburg
+1464909|VA|Church Campgrounds|locale|Montgomery|51|121|370843N|0801907W|37.14528|-80.31861||||||||Ironto
+1674520|VA|Church of God in Christ|church|Montgomery|51|121|370812N|0802427W|37.13667|-80.4075||||||||Blacksburg
+1464995|VA|Clinkum Hollow|valley|Montgomery|51|121|371334N|0801454W|37.22611|-80.24833|371241N|0801515W|37.21139|-80.25417||||Elliston
+1674521|VA|Clover Valley (subdivision)|ppl|Montgomery|51|121|371448N|0802445W|37.24667|-80.4125|||||2170|||Blacksburg
+1482601|VA|Coal Bank Hollow|valley|Montgomery|51|121|371632N|0802511W|37.27556|-80.41972|371654N|0802347W|37.28167|-80.39639||||Newport
+1674522|VA|Cochrane Hall|building|Montgomery|51|121|371322N|0802521W|37.22278|-80.4225||||||||Blacksburg
+1465054|VA|Coffee Valley|valley|Montgomery|51|121|371149N|0801744W|37.19694|-80.29556|371129N|0801612W|37.19139|-80.27||||Ironto
+1465195|VA|Cooks Branch|stream|Montgomery|51|121|370648N|0801754W|37.11333|-80.29833|370805N|0801832W|37.13472|-80.30889||||Pilot
+1674523|VA|Country Club Estates|ppl|Montgomery|51|121|371245N|0802145W|37.2125|-80.3625|||||1520|||Ironto
+1674524|VA|Country Club Park (subdivision)|ppl|Montgomery|51|121|371315N|0802410W|37.22083|-80.40278|||||2190|||Blacksburg
+1674525|VA|Countryside Estates (subdivision)|ppl|Montgomery|51|121|371523N|0802445W|37.25639|-80.4125|||||2250|||Newport
+1674529|VA|Cowgil Hall|building|Montgomery|51|121|371347N|0802530W|37.22972|-80.425||||||||Blacksburg
+1482781|VA|Crab Creek|stream|Montgomery|51|121|370913N|0803144W|37.15361|-80.52889|370820N|0802219W|37.13889|-80.37194||||Radford North
+1465397|VA|Craig Branch|stream|Montgomery|51|121|371415N|0801629W|37.2375|-80.27472|371321N|0801945W|37.2225|-80.32917||||Ironto
+1496861|VA|Craig Mountain|summit|Montgomery|51|121|370501N|0801941W|37.08361|-80.32806|||||2580|||Pilot
+1674526|VA|Craig Mountain (subdivision)|ppl|Montgomery|51|121|370748N|0802311W|37.13|-80.38639|||||2200|||Blacksburg
+1482823|VA|Crawford Ridge|ridge|Montgomery|51|121|371938N|0801519W|37.32722|-80.25528||||||||McDonalds Mill
+1674527|VA|Crestwood Gardens (subdivision)|ppl|Montgomery|51|121|371240N|0802329W|37.21111|-80.39139|||||2220|||Blacksburg
+1674528|VA|Crockett Spring (historical)|ppl|Montgomery|51|121|370539N|0801511W|37.09417|-80.25306|||||1495|||Pilot
+1674530|VA|Cumberland Forest (subdivision)|ppl|Montgomery|51|121|370824N|0801919W|37.14|-80.32194|||||2200|||Ironto
+1465610|VA|Dark Hollow|valley|Montgomery|51|121|371147N|0801727W|37.19639|-80.29083|371110N|0801731W|37.18611|-80.29194||||Ironto
+1465615|VA|Dark Run|stream|Montgomery|51|121|371031N|0801414W|37.17528|-80.23722|370848N|0801306W|37.14667|-80.21833||||Elliston
+1674531|VA|Davidson Hall|building|Montgomery|51|121|371337N|0802532W|37.22694|-80.42556||||||||Blacksburg
+1482942|VA|Davis Chapel|church|Montgomery|51|121|371441N|0802249W|37.24472|-80.38028||||||||Blacksburg
+1674532|VA|DeHart Subdivision|ppl|Montgomery|51|121|370813N|0802052W|37.13694|-80.34778|||||2180|||Ironto
+1495461|VA|Dee Cee Hill|summit|Montgomery|51|121|371003N|0801910W|37.1675|-80.31944|||||2000|||Ironto
+1465728|VA|Den Creek|stream|Montgomery|51|121|371106N|0802107W|37.185|-80.35194|370822N|0802014W|37.13944|-80.33722||||Ironto
+1465729|VA|Den Hill|summit|Montgomery|51|121|370847N|0801912W|37.14639|-80.32|||||2254|||Ironto
+1674533|VA|Den Hill|ppl|Montgomery|51|121|370920N|0801848W|37.15556|-80.31333|||||1780|||Ironto
+1465730|VA|Den Hill Cemetery|cemetery|Montgomery|51|121|370920N|0801845W|37.15556|-80.3125||||||||Ironto
+1674534|VA|Derring Hall|building|Montgomery|51|121|371344N|0802533W|37.22889|-80.42583||||||||Blacksburg
+1674535|VA|Diamond Pointe|ppl|Montgomery|51|121|370855N|0802611W|37.14861|-80.43639|||||2060|||Blacksburg
+1674536|VA|Dickerson (subdivision)|ppl|Montgomery|51|121|371417N|0802456W|37.23806|-80.41556|||||2120|||Blacksburg
+1674537|VA|Dietrick Hall|building|Montgomery|51|121|371328N|0802517W|37.22444|-80.42139||||||||Blacksburg
+1986190|VA|District A-01 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1927295|VA|District A-91 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1986191|VA|District B-01 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1927296|VA|District B-91 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1986192|VA|District C-01 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1927297|VA|District C-91 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1986193|VA|District D-01 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1927298|VA|District D-91 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1986194|VA|District E-01 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1927299|VA|District E-91 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1986195|VA|District F-01 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1927300|VA|District F-91 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1986196|VA|District G-01 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1927301|VA|District G-91 Magisterial District|civil|Montgomery|51|121|UNKNOWN|UNKNOWN||||||||||Unknown
+1674538|VA|Donaldson Brown Continuing Education Center|building|Montgomery|51|121|371342N|0802505W|37.22833|-80.41806||||||||Blacksburg
+1495476|VA|Double Ridge Knob|summit|Montgomery|51|121|371912N|0801836W|37.32|-80.31|||||3080|||McDonalds Mill
+1465970|VA|Dry Branch|stream|Montgomery|51|121|370544N|0802008W|37.09556|-80.33556|370458N|0802138W|37.08278|-80.36056||||Pilot
+1483139|VA|Dry Run|stream|Montgomery|51|121|371619N|0801831W|37.27194|-80.30861|371802N|0802136W|37.30056|-80.36||||McDonalds Mill
+1674539|VA|Dry School (historical)|school|Montgomery|51|121|370537N|0803148W|37.09361|-80.53||||||||Radford South
+1674540|VA|Dundas Heights (subdivision)|ppl|Montgomery|51|121|371424N|0802435W|37.24|-80.40972|||||2140|||Blacksburg
+1674541|VA|Dunton Addition (subdivision)|ppl|Montgomery|51|121|371304N|0802427W|37.21778|-80.4075|||||2160|||Blacksburg
+1674542|VA|East Main Street Historic District|park|Montgomery|51|121|370758N|0802420W|37.13278|-80.40556||||||||Blacksburg
+1674543|VA|East Park Addition (subdivision)|ppl|Montgomery|51|121|370758N|0802352W|37.13278|-80.39778|||||2165|||Blacksburg
+1488745|VA|East Radford|ppl|Montgomery|51|121|370813N|0803312W|37.13694|-80.55333|||||1910|||Radford North
+1674544|VA|East Ridge (subdivision)|ppl|Montgomery|51|121|370758N|0802209W|37.13278|-80.36917|||||2200|||Ironto
+1466124|VA|Easter Creek|stream|Montgomery|51|121|370139N|0803159W|37.0275|-80.53306|370133N|0802940W|37.02583|-80.49444||||Radford South
+1674545|VA|Echo Hills (subdivision)|ppl|Montgomery|51|121|370815N|0802458W|37.1375|-80.41611|||||2100|||Blacksburg
+1466165|VA|Eckels Branch|stream|Montgomery|51|121|370301N|0802059W|37.05028|-80.34972|370448N|0802016W|37.08|-80.33778||||Pilot
+1466176|VA|Edgemont Church|church|Montgomery|51|121|370627N|0802843W|37.1075|-80.47861||||||||Riner
+1674566|VA|Edgewood (subdivision)|ppl|Montgomery|51|121|370653N|0802328W|37.11472|-80.39111|||||2250|||Riner
+1674546|VA|Eggleston Hall|building|Montgomery|51|121|371338N|0802514W|37.22722|-80.42056||||||||Blacksburg
+1477300|VA|Ellett|ppl|Montgomery|51|121|371129N|0802201W|37.19139|-80.36694|||||1552||BGN 1965|Ironto
+1466247|VA|Elliott Creek|stream|Montgomery|51|121|370737N|0801558W|37.12694|-80.26611|370247N|0802411W|37.04639|-80.40306|||BGN 1966|Ironto
+1494218|VA|Elliston|ppl|Montgomery|51|121|371259N|0801358W|37.21639|-80.23278|||||1280|||Elliston
+1466253|VA|Elliston Lafayette School|school|Montgomery|51|121|371325N|0801251W|37.22361|-80.21417||||||||Elliston
+1674548|VA|Engel Hall|building|Montgomery|51|121|371325N|0802526W|37.22361|-80.42389||||||||Blacksburg
+1674547|VA|English Field|park|Montgomery|51|121|371303N|0802523W|37.2175|-80.42306||||||||Blacksburg
+1674549|VA|Evergreen (subdivision)|ppl|Montgomery|51|121|371320N|0802415W|37.22222|-80.40417|||||2160|||Blacksburg
+1477314|VA|Fagg|ppl|Montgomery|51|121|371146N|0801924W|37.19611|-80.32333|||||1431|||Ironto
+1466386|VA|Fagg Hollow|valley|Montgomery|51|121|371130N|0801942W|37.19167|-80.32833|371030N|0801945W|37.175|-80.32917||||Ironto
+1674551|VA|Fairview|ppl|Montgomery|51|121|370302N|0802952W|37.05056|-80.49778|||||1984|||Riner
+1466415|VA|Fairview Church|church|Montgomery|51|121|370300N|0802954W|37.05|-80.49833||||||||Riner
+1483333|VA|Fairview Church|church|Montgomery|51|121|371349N|0802944W|37.23028|-80.49556||||||||Blacksburg
+1674552|VA|Fairview School (historical)|school|Montgomery|51|121|371349N|0802944W|37.23028|-80.49556||||||||Blacksburg
+1466449|VA|Falling Branch|stream|Montgomery|51|121|370638N|0801826W|37.11056|-80.30722|370720N|0802221W|37.12222|-80.3725||||Pilot
+1674550|VA|Falling Branch (subdivision)|ppl|Montgomery|51|121|370750N|0802137W|37.13056|-80.36028|||||2180|||Ironto
+1466465|VA|Falling Spring Hollow|valley|Montgomery|51|121|371131N|0801449W|37.19194|-80.24694|371145N|0801534W|37.19583|-80.25944||||Elliston
+1466468|VA|Falling Waters Church|church|Montgomery|51|121|371156N|0801906W|37.19889|-80.31833||||||||Ironto
+1466473|VA|Falls Hollow|valley|Montgomery|51|121|371143N|0801926W|37.19528|-80.32389|371016N|0801820W|37.17111|-80.30556||||Ironto
+1674553|VA|Farmview (subdivision)|ppl|Montgomery|51|121|371145N|0802432W|37.19583|-80.40889|||||2150|||Blacksburg
+1674554|VA|Femoyer Hall|building|Montgomery|51|121|371352N|0802518W|37.23111|-80.42167||||||||Blacksburg
+1674555|VA|First Baptist Church|church|Montgomery|51|121|371343N|0802436W|37.22861|-80.41||||||||Blacksburg
+1466608|VA|Fishers View Mountain|summit|Montgomery|51|121|370525N|0801745W|37.09028|-80.29583|||||2699|||Pilot
+1674556|VA|Fishers View School (historical)|school|Montgomery|51|121|370451N|0801733W|37.08083|-80.2925||||||||Pilot
+1483429|VA|Flag Cemetery|cemetery|Montgomery|51|121|370802N|0802332W|37.13389|-80.39222||||||||Blacksburg
+1466674|VA|Flatwoods|woods|Montgomery|51|121|371438N|0801620W|37.24389|-80.27222||||||||Ironto
+1483454|VA|Flatwoods Branch|stream|Montgomery|51|121|371413N|0801603W|37.23694|-80.2675|371559N|0801655W|37.26639|-80.28194||||Ironto
+1674557|VA|Forest Hills (historical)|ppl|Montgomery|51|121|371254N|0802328W|37.215|-80.39111|||||2270|||Blacksburg
+1483484|VA|Fork Lick Hollow|valley|Montgomery|51|121|371404N|0803233W|37.23444|-80.5425|371425N|0803329W|37.24028|-80.55806||||Radford North
+1483515|VA|Fox Hollow|valley|Montgomery|51|121|371353N|0803043W|37.23139|-80.51194|371456N|0803059W|37.24889|-80.51639||||Radford North
+1674558|VA|Franklin Park (subdivision)|ppl|Montgomery|51|121|370714N|0802403W|37.12056|-80.40083|||||2200|||Riner
+1483546|VA|Friends School|school|Montgomery|51|121|370840N|0802456W|37.14444|-80.41556||||||||Blacksburg
+1674559|VA|Friendship School (historical)|school|Montgomery|51|121|371051N|0801757W|37.18083|-80.29917||||||||Ironto
+1674560|VA|Gables Shopping Center|locale|Montgomery|51|121|371258N|0802410W|37.21611|-80.40278||||||||Blacksburg
+1483580|VA|Gallion Branch|stream|Montgomery|51|121|371832N|0801529W|37.30889|-80.25806|372024N|0801552W|37.34|-80.26444||||McDonalds Mill
+1483583|VA|Gap Mountain|summit|Montgomery|51|121|371638N|0802950W|37.27722|-80.49722|||||2973|||Newport
+1466978|VA|Garber Chapel|church|Montgomery|51|121|370816N|0802035W|37.13778|-80.34306||||||||Ironto
+1467045|VA|Georges Run|stream|Montgomery|51|121|370819N|0801618W|37.13861|-80.27167|370841N|0801758W|37.14472|-80.29944||||Ironto
+1467110|VA|Ginger Hollow|valley|Montgomery|51|121|371153N|0801802W|37.19806|-80.30056|371129N|0801845W|37.19139|-80.3125||||Ironto
+1674561|VA|Glade Road Heights|ppl|Montgomery|51|121|371407N|0802724W|37.23528|-80.45667|||||2040|||Blacksburg
+1674562|VA|Glade School (historical)|school|Montgomery|51|121|371410N|0802702W|37.23611|-80.45056||||||||Blacksburg
+1674563|VA|Gladewood|ppl|Montgomery|51|121|371400N|0802645W|37.23333|-80.44583|||||2060|||Blacksburg
+1674564|VA|Goodwins Ferry (historical)|ppl|Montgomery|51|121|371316N|0803640W|37.22111|-80.61111|||||1690|||Radford North
+1467309|VA|Grace Church|church|Montgomery|51|121|370132N|0802557W|37.02556|-80.4325||||||||Riner
+1499492|VA|Graysontown|ppl|Montgomery|51|121|370218N|0803341W|37.03833|-80.56139|||||1850|||Radford South
+1674565|VA|Graysontown Methodist Church|church|Montgomery|51|121|370213N|0803340W|37.03694|-80.56111||||||||Radford South
+1674567|VA|Hahn Hall|building|Montgomery|51|121|371340N|0802532W|37.22778|-80.42556||||||||Blacksburg
+1483888|VA|Hale Cemetery|cemetery|Montgomery|51|121|371633N|0802347W|37.27583|-80.39639||||||||Newport
+1495638|VA|Half Acre of Rocks|summit|Montgomery|51|121|371602N|0801706W|37.26722|-80.285|||||2200|||McDonalds Mill
+1467674|VA|Halls Church|church|Montgomery|51|121|371417N|0801607W|37.23806|-80.26861||||||||Ironto
+1674570|VA|Hancock Hall|building|Montgomery|51|121|371349N|0802527W|37.23028|-80.42417||||||||Blacksburg
+1674569|VA|Hans Meadow (subdivision)|ppl|Montgomery|51|121|370813N|0802310W|37.13694|-80.38611|||||2100|||Blacksburg
+1488707|VA|Harding Avenue School|school|Montgomery|51|121|371404N|0802441W|37.23444|-80.41139|||||2085|||Blacksburg
+1674571|VA|Harmon Forest (subdivision)|ppl|Montgomery|51|121|370731N|0802610W|37.12528|-80.43611|||||2160|||Blacksburg
+1467881|VA|Hazelnut Hollow|valley|Montgomery|51|121|371947N|0802028W|37.32972|-80.34111|371844N|0802026W|37.31222|-80.34056||||McDonalds Mill
+1674572|VA|Henderson Student Health Service Building|hospital|Montgomery|51|121|371349N|0802502W|37.23028|-80.41722|||||2060|||Blacksburg
+1674573|VA|Henley Place|ppl|Montgomery|51|121|370907N|0802533W|37.15194|-80.42583|||||2100|||Blacksburg
+1674574|VA|Hethwood|ppl|Montgomery|51|121|371255N|0802715W|37.21528|-80.45417|||||2040|||Blacksburg
+1674575|VA|Hethwood Square Shopping Center|locale|Montgomery|51|121|371302N|0802718W|37.21722|-80.455||||||||Blacksburg
+1484082|VA|High Knob|summit|Montgomery|51|121|371207N|0802259W|37.20194|-80.38306|||||2310|||Blacksburg
+1468025|VA|High Rock Church|church|Montgomery|51|121|370324N|0802042W|37.05667|-80.345||||||||Pilot
+1674576|VA|High Rock School (historical)|school|Montgomery|51|121|370324N|0802045W|37.05667|-80.34583||||||||Pilot
+1674577|VA|Highland Park (subdivision)|ppl|Montgomery|51|121|370716N|0802453W|37.12111|-80.41472|||||2110|||Riner
+1674578|VA|Highland Park (subdivision)|ppl|Montgomery|51|121|371325N|0802331W|37.22361|-80.39194|||||2240|||Blacksburg
+1484100|VA|Hightop Mission Church|church|Montgomery|51|121|371120N|0802416W|37.18889|-80.40444||||||||Blacksburg
+1468038|VA|Hightop Mountain|summit|Montgomery|51|121|371218N|0802007W|37.205|-80.33528|||||2619|||Ironto
+1674579|VA|Highview Terrace (subdivision)|ppl|Montgomery|51|121|370724N|0802449W|37.12333|-80.41361|||||2180|||Riner
+1674580|VA|Hillcrest Dormitory|building|Montgomery|51|121|371326N|0802532W|37.22389|-80.42556||||||||Blacksburg
+1674581|VA|Hills Shopping Center|locale|Montgomery|51|121|370806N|0802240W|37.135|-80.37778||||||||Blacksburg
+1488710|VA|Hilltop Plaza|ppl|Montgomery|51|121|371232N|0802346W|37.20889|-80.39611|||||2180|||Blacksburg
+1484143|VA|Hoge Pond|reservoir|Montgomery|51|121|371326N|0802907W|37.22389|-80.48528||||||||Blacksburg
+1674568|VA|Holden Hall|building|Montgomery|51|121|371347N|0802525W|37.22972|-80.42361||||||||Blacksburg
+1495722|VA|Houchins|ppl|Montgomery|51|121|370906N|0802136W|37.15167|-80.36|||||1960|||Ironto
+1674582|VA|Hubbard Haven (subdivision)|ppl|Montgomery|51|121|371240N|0802412W|37.21111|-80.40333|||||2120|||Blacksburg
+1674641|VA|Huff Acres (subdivision)|ppl|Montgomery|51|121|370717N|0802346W|37.12139|-80.39611|||||2160|||Riner
+1674583|VA|Hunters Ridge (subdivision)|ppl|Montgomery|51|121|371451N|0802501W|37.2475|-80.41694|||||2170|||Blacksburg
+1674584|VA|Hutcheson Hall|building|Montgomery|51|121|371332N|0802524W|37.22556|-80.42333||||||||Blacksburg
+1468483|VA|Indian Run|stream|Montgomery|51|121|371330N|0801229W|37.225|-80.20806|371246N|0801158W|37.21278|-80.19944||||Elliston
+1484337|VA|Indian Run|stream|Montgomery|51|121|371430N|0802126W|37.24167|-80.35722|371514N|0802426W|37.25389|-80.40722||||Ironto
+1499596|VA|Ingles Mountain|summit|Montgomery|51|121|370618N|0803344W|37.105|-80.56222|||||2300|||Radford South
+1674585|VA|Interchange 105|crossing|Montgomery|51|121|370529N|0803434W|37.09139|-80.57611||||||||Radford South
+1674586|VA|Interchange 109|crossing|Montgomery|51|121|370546N|0803028W|37.09611|-80.50778||||||||Radford South
+1674587|VA|Interchange 114|crossing|Montgomery|51|121|370658N|0802522W|37.11611|-80.42278||||||||Riner
+1674588|VA|Interchange 118|crossing|Montgomery|51|121|370814N|0802124W|37.13722|-80.35667||||||||Ironto
+1674589|VA|Interchange 128|crossing|Montgomery|51|121|371358N|0801417W|37.23278|-80.23806||||||||Elliston
+1468516|VA|Iron Mine Hollow|valley|Montgomery|51|121|371002N|0802043W|37.16722|-80.34528|370920N|0802125W|37.15556|-80.35694||||Ironto
+1468520|VA|Ironto|ppl|Montgomery|51|121|371307N|0801642W|37.21861|-80.27833|||||1298|||Ironto
+1484378|VA|Jack Hollow|valley|Montgomery|51|121|371653N|0801806W|37.28139|-80.30167|371746N|0801829W|37.29611|-80.30806||||McDonalds Mill
+1674590|VA|Jamerson Athletic Center|building|Montgomery|51|121|371318N|0802508W|37.22167|-80.41889||||||||Blacksburg
+1484409|VA|Jennelle Cemetery|cemetery|Montgomery|51|121|371110N|0802412W|37.18611|-80.40333||||||||Blacksburg
+1674591|VA|Johnson Hall|building|Montgomery|51|121|371332N|0802505W|37.22556|-80.41806||||||||Blacksburg
+1674592|VA|Johnson Heights (subdivision)|ppl|Montgomery|51|121|370813N|0802420W|37.13694|-80.40556|||||2120|||Blacksburg
+1484484|VA|Johnson Ridge|ridge|Montgomery|51|121|371657N|0801949W|37.2825|-80.33028||||||||McDonalds Mill
+1484502|VA|Jones Hollow|valley|Montgomery|51|121|372100N|0801754W|37.35|-80.29833|372008N|0801804W|37.33556|-80.30111||||McDonalds Mill
+1484521|VA|Kanodes Mill|ppl|Montgomery|51|121|371417N|0802825W|37.23806|-80.47361|||||1905|||Blacksburg
+1674593|VA|Karr Heights|ppl|Montgomery|51|121|371405N|0802631W|37.23472|-80.44194|||||2080|||Blacksburg
+1674594|VA|Keister Addition (subdivision)|ppl|Montgomery|51|121|371358N|0802449W|37.23278|-80.41361|||||2080|||Blacksburg
+1674595|VA|Kessler Park (subdivision)|ppl|Montgomery|51|121|371415N|0802357W|37.2375|-80.39917|||||2260|||Blacksburg
+1468978|VA|Kettle Hollow|valley|Montgomery|51|121|370945N|0802036W|37.1625|-80.34333|370845N|0802128W|37.14583|-80.35778||||Ironto
+1674596|VA|Kingston Court (subdivision)|ppl|Montgomery|51|121|370705N|0802400W|37.11806|-80.4|||||2200|||Riner
+1469028|VA|Kingston Hollow|valley|Montgomery|51|121|370546N|0802530W|37.09611|-80.425|370639N|0802427W|37.11083|-80.4075||||Riner
+1484613|VA|Kipps Cemetery|cemetery|Montgomery|51|121|371221N|0802738W|37.20583|-80.46056||||||||Blacksburg
+1469037|VA|Kirk Hollow|valley|Montgomery|51|121|370957N|0801516W|37.16583|-80.25444|370947N|0801643W|37.16306|-80.27861||||Ironto
+1674597|VA|Knob Hill (subdivision)|ppl|Montgomery|51|121|371348N|0802356W|37.23|-80.39889|||||2300|||Blacksburg
+1674598|VA|La Plateau|ppl|Montgomery|51|121|370938N|0802605W|37.16056|-80.43472|||||2040|||Blacksburg
+1494243|VA|Lafayette|ppl|Montgomery|51|121|371410N|0801242W|37.23611|-80.21167|||||1210|||Elliston
+1674599|VA|Lafayette Historic District|park|Montgomery|51|121|371407N|0801239W|37.23528|-80.21083||||||||Elliston
+1674601|VA|Lane Hall|building|Montgomery|51|121|371351N|0802512W|37.23083|-80.42||||||||Blacksburg
+1491182|VA|Lane Stadium|park|Montgomery|51|121|371312N|0802506W|37.22|-80.41833||||||||Blacksburg
+1674602|VA|Laurel Fork School (historical)|school|Montgomery|51|121|370129N|0802518W|37.02472|-80.42167||||||||Riner
+1469186|VA|Laurel Hill Church|church|Montgomery|51|121|370354N|0803228W|37.065|-80.54111||||||||Radford South
+1674600|VA|Laurel Ridge|ppl|Montgomery|51|121|371606N|0802655W|37.26833|-80.44861|||||2300|||Newport
+1674607|VA|Lee Hall|building|Montgomery|51|121|371328N|0802508W|37.22444|-80.41889||||||||Blacksburg
+1674603|VA|Lee-Hi Court (subdivision)|ppl|Montgomery|51|121|370737N|0802506W|37.12694|-80.41833|||||2140|||Blacksburg
+1674604|VA|Lester Place (subdivision)|ppl|Montgomery|51|121|370755N|0802403W|37.13194|-80.40083|||||2145|||Blacksburg
+1484789|VA|Leyman Hollow|valley|Montgomery|51|121|372113N|0801704W|37.35361|-80.28444|371951N|0801651W|37.33083|-80.28083||||McDonalds Mill
+1484828|VA|Lick Run|stream|Montgomery|51|121|371339N|0803153W|37.2275|-80.53139|371438N|0803331W|37.24389|-80.55861||||Radford North
+1674605|VA|Linkous (subdivision)|ppl|Montgomery|51|121|371420N|0802440W|37.23889|-80.41111|||||2120|||Blacksburg
+1484856|VA|Linkous School|school|Montgomery|51|121|371412N|0802531W|37.23667|-80.42528||||||||Blacksburg
+1469580|VA|Little Laurel Creek|stream|Montgomery|51|121|370753N|0801048W|37.13139|-80.18|370909N|0801124W|37.1525|-80.19||||Elliston
+1499672|VA|Little Montgomery|ppl|Montgomery|51|121|370124N|0803250W|37.02333|-80.54722|||||1880|||Radford South
+1478977|VA|Little River|stream|Montgomery|51|121|370453N|0803438W|37.08139|-80.57722|370447N|0800842W|37.07972|-80.145||||Radford South
+1490428|VA|Little River Dam|dam|Montgomery|51|121|370442N|0803418W|37.07833|-80.57167||||||||Radford South
+1490429|VA|Little River Reservoir|reservoir|Montgomery|51|121|370442N|0803418W|37.07833|-80.57167||||||||Radford South
+1674606|VA|Litton Reaves Hall|building|Montgomery|51|121|371317N|0802527W|37.22139|-80.42417||||||||Blacksburg
+1485020|VA|Locust Lick Hollow|valley|Montgomery|51|121|372057N|0801732W|37.34917|-80.29222|371949N|0801704W|37.33028|-80.28444||||McDonalds Mill
+1469816|VA|Long Hollow Ridge|ridge|Montgomery|51|121|371035N|0801653W|37.17639|-80.28139|||||1916|||Ironto
+1485077|VA|Longshop|locale|Montgomery|51|121|371236N|0803311W|37.21|-80.55306||||||||Radford North
+1674608|VA|Longview Estates (subdivision)|ppl|Montgomery|51|121|371421N|0802600W|37.23917|-80.43333|||||2110|||Blacksburg
+1674609|VA|Lowes Shopping Center|locale|Montgomery|51|121|371256N|0802359W|37.21556|-80.39972||||||||Blacksburg
+1469939|VA|Lusters Gate|locale|Montgomery|51|121|371433N|0802150W|37.2425|-80.36389|||||1594|||Ironto
+1674610|VA|Luther Memorial Church|church|Montgomery|51|121|371358N|0802508W|37.23278|-80.41889||||||||Blacksburg
+1674611|VA|Lynwood Terrace (subdivision)|ppl|Montgomery|51|121|370727N|0802430W|37.12417|-80.40833|||||2170|||Riner
+1674612|VA|Madison Farm Historic District|park|Montgomery|51|121|371038N|0801412W|37.17722|-80.23667||||||||Elliston
+1674613|VA|Main Street Baptist Church|church|Montgomery|51|121|370741N|0802437W|37.12806|-80.41028||||||||Blacksburg
+1674616|VA|Major Williams Dormitory|building|Montgomery|51|121|371351N|0802516W|37.23083|-80.42111||||||||Blacksburg
+1485178|VA|Maple Springs Hollow|valley|Montgomery|51|121|372047N|0801832W|37.34639|-80.30889|372138N|0801947W|37.36056|-80.32972||||McDonalds Mill
+1674614|VA|Marvin Garden Subdivision|ppl|Montgomery|51|121|370834N|0801905W|37.14278|-80.31806|||||2160|||Ironto
+1674617|VA|McBryde Hall|building|Montgomery|51|121|371349N|0802520W|37.23028|-80.42222||||||||Blacksburg
+1674618|VA|McBryde Village (subdivision)|ppl|Montgomery|51|121|371408N|0802549W|37.23556|-80.43028|||||2100|||Blacksburg
+1499720|VA|McCoy|ppl|Montgomery|51|121|371301N|0803553W|37.21694|-80.59806|||||2000|||Radford North
+1485283|VA|McDonald Hollow|valley|Montgomery|51|121|371417N|0802825W|37.23806|-80.47361|371452N|0802924W|37.24778|-80.49||||Blacksburg
+1495916|VA|McDonalds Mill|ppl|Montgomery|51|121|371800N|0801633W|37.3|-80.27583|||||1730|||McDonalds Mill
+1674619|VA|Meadow Brook (subdivision)|ppl|Montgomery|51|121|371557N|0802451W|37.26583|-80.41417|||||2130|||Newport
+1470311|VA|Meadow Creek|stream|Montgomery|51|121|370337N|0803248W|37.06028|-80.54667|370640N|0802604W|37.11111|-80.43444||||Radford South
+1485341|VA|Meadow Hollow|valley|Montgomery|51|121|371430N|0802821W|37.24167|-80.4725|371456N|0802903W|37.24889|-80.48417||||Blacksburg
+1674615|VA|Meadow Run (subdivision)|ppl|Montgomery|51|121|371550N|0802401W|37.26389|-80.40028|||||2150|||Newport
+1674620|VA|Memorial Gymnasium|building|Montgomery|51|121|371334N|0802516W|37.22611|-80.42111||||||||Blacksburg
+1493279|VA|Merrimac|ppl|Montgomery|51|121|371122N|0802533W|37.18944|-80.42583|||||2020|1751|BGN 1966|Blacksburg
+1495938|VA|Middle Piece Mountain|summit|Montgomery|51|121|371104N|0801601W|37.18444|-80.26694|||||1980|||Ironto
+1674621|VA|Middle Ridge School (historical)|school|Montgomery|51|121|370323N|0801945W|37.05639|-80.32917||||||||Pilot
+1470436|VA|Midway Church|church|Montgomery|51|121|371302N|0801709W|37.21722|-80.28583||||||||Ironto
+1674622|VA|Midway Heights (subdivision)|ppl|Montgomery|51|121|371020N|0802507W|37.17222|-80.41861|||||2080|||Blacksburg
+1674623|VA|Miles Hall|building|Montgomery|51|121|371331N|0802503W|37.22528|-80.4175||||||||Blacksburg
+1470500|VA|Mill Creek|stream|Montgomery|51|121|370415N|0803031W|37.07083|-80.50861|370239N|0802554W|37.04417|-80.43167||||Radford South
+1485433|VA|Mill Creek|stream|Montgomery|51|121|371537N|0802027W|37.26028|-80.34083|371810N|0802316W|37.30278|-80.38778||||McDonalds Mill
+1485444|VA|Mill Hollow|valley|Montgomery|51|121|372020N|0801843W|37.33889|-80.31194|371928N|0801836W|37.32444|-80.31||||McDonalds Mill
+1470523|VA|Mill Knob|summit|Montgomery|51|121|371154N|0801823W|37.19833|-80.30639|||||2077|||Ironto
+1674624|VA|Miller Addition (subdivision)|ppl|Montgomery|51|121|371326N|0802439W|37.22389|-80.41083|||||2130|||Blacksburg
+1674625|VA|Miller-Southside Historic District|park|Montgomery|51|121|371323N|0802435W|37.22306|-80.40972||||||||Blacksburg
+1674626|VA|Milletts Tunnel|tunnel|Montgomery|51|121|371113N|0803054W|37.18694|-80.515||||||||Radford North
+1674627|VA|Mission Hills (subdivision)|ppl|Montgomery|51|121|371315N|0802700W|37.22083|-80.45|||||2080|||Blacksburg
+1674628|VA|Mockingbird Hill (subdivision)|ppl|Montgomery|51|121|370707N|0802458W|37.11861|-80.41611|||||2190|||Riner
+1674629|VA|Monteith Hall|building|Montgomery|51|121|371355N|0802514W|37.23194|-80.42056||||||||Blacksburg
+1477550|VA|Montgomery|ppl|Montgomery|51|121|370923N|0801909W|37.15639|-80.31917|||||1755|||Ironto
+1485525|VA|Montgomery Church|church|Montgomery|51|121|371100N|0802439W|37.18333|-80.41083||||||||Blacksburg
+1674630|VA|Montgomery County|civil|Montgomery|51|121|371000N|0802300W|37.16667|-80.38333||||||73913||Blacksburg
+1674631|VA|Montgomery County Courthouse|building|Montgomery|51|121|370747N|0802431W|37.12972|-80.40861||||||||Blacksburg
+1674632|VA|Montgomery County Jail|building|Montgomery|51|121|370747N|0802429W|37.12972|-80.40806||||||||Blacksburg
+1488708|VA|Montgomery County Park|park|Montgomery|51|121|371022N|0802443W|37.17278|-80.41194|||||2101|||Blacksburg
+1674633|VA|Montgomery Farms|ppl|Montgomery|51|121|371210N|0802910W|37.20278|-80.48611|||||1960|||Blacksburg
+1674635|VA|Montgomery Regional Hospital|hospital|Montgomery|51|121|371114N|0802442W|37.18722|-80.41167|||||2140|||Blacksburg
+1674636|VA|Montgomery White Sulphur Springs (historical)|ppl|Montgomery|51|121|371013N|0802055W|37.17028|-80.34861|||||1560|||Ironto
+1674634|VA|Montgomery-Floyd Regional Library|building|Montgomery|51|121|370747N|0802453W|37.12972|-80.41472||||||||Blacksburg
+1485531|VA|Moon Hollow|valley|Montgomery|51|121|371146N|0802835W|37.19611|-80.47639|371123N|0802752W|37.18972|-80.46444||||Blacksburg
+1674637|VA|Mosely Practice Field|park|Montgomery|51|121|371312N|0802520W|37.22|-80.42222||||||||Blacksburg
+1485567|VA|Mossy Spring Branch|stream|Montgomery|51|121|371518N|0802050W|37.255|-80.34722|371622N|0802239W|37.27278|-80.3775||||McDonalds Mill
+1470797|VA|Mount Airy Church|church|Montgomery|51|121|370301N|0803149W|37.05028|-80.53028||||||||Radford South
+1470825|VA|Mount Calvary Church|church|Montgomery|51|121|370919N|0801849W|37.15528|-80.31361||||||||Ironto
+1485591|VA|Mount Hope Church|church|Montgomery|51|121|371020N|0802940W|37.17222|-80.49444||||||||Blacksburg
+1470916|VA|Mount Jackson Church|church|Montgomery|51|121|370037N|0802852W|37.01028|-80.48111||||||||Riner
+1471036|VA|Mount Pleasant Church|church|Montgomery|51|121|370758N|0801824W|37.13278|-80.30667||||||||Ironto
+1674638|VA|Mount Pleasant School (historical)|school|Montgomery|51|121|370803N|0801829W|37.13417|-80.30806||||||||Ironto
+1485643|VA|Mount Taber Church|church|Montgomery|51|121|370824N|0802931W|37.14|-80.49194||||||||Blacksburg
+1485644|VA|Mount Tabor|ppl|Montgomery|51|121|371559N|0802401W|37.26639|-80.40028|||||2126|||Newport
+1674639|VA|Mount Tabor School (historical)|school|Montgomery|51|121|371556N|0802404W|37.26556|-80.40111||||||||Newport
+1674640|VA|Mount Tabor Village|ppl|Montgomery|51|121|371550N|0802348W|37.26389|-80.39667|||||2170|||Newport
+1485646|VA|Mount Union Church|church|Montgomery|51|121|371848N|0801737W|37.31333|-80.29361||||||||McDonalds Mill
+1485656|VA|Mount Zion Cemetery|cemetery|Montgomery|51|121|371339N|0803051W|37.2275|-80.51417||||||||Radford North
+1485680|VA|Mountain Mission|church|Montgomery|51|121|371657N|0802628W|37.2825|-80.44111||||||||Newport
+1674642|VA|Mountain Top Estates (subdivision)|ppl|Montgomery|51|121|370815N|0801930W|37.1375|-80.325|||||2180|||Ironto
+1674643|VA|Mountain View|ppl|Montgomery|51|121|371535N|0802653W|37.25972|-80.44806|||||2070|||Newport
+1485702|VA|Mountain View Church|church|Montgomery|51|121|371526N|0802651W|37.25722|-80.4475||||||||Newport
+1674644|VA|Mountain View Estates (subdivision)|ppl|Montgomery|51|121|371330N|0802425W|37.225|-80.40694|||||2150|||Blacksburg
+1674645|VA|Mountain View Park (subdivision)|ppl|Montgomery|51|121|370943N|0802533W|37.16194|-80.42583|||||2070|||Blacksburg
+1674646|VA|Mudhole Hollow|valley|Montgomery|51|121|370611N|0801608W|37.10306|-80.26889|370517N|0801626W|37.08806|-80.27389||||Pilot
+1485753|VA|Mullins Branch|stream|Montgomery|51|121|371714N|0801928W|37.28722|-80.32444|371757N|0801854W|37.29917|-80.315||||McDonalds Mill
+1674647|VA|Murphy (subdivision)|ppl|Montgomery|51|121|371453N|0802428W|37.24806|-80.40778|||||2180|||Blacksburg
+1674721|VA|Myers Acres (subdivision)|ppl|Montgomery|51|121|371129N|0802437W|37.19139|-80.41028|||||2140|||Blacksburg
+1674648|VA|New Altamont Hospital|hospital|Montgomery|51|121|370736N|0802456W|37.12667|-80.41556|||||2110|||Blacksburg
+1495999|VA|New Ellett|ppl|Montgomery|51|121|371158N|0802149W|37.19944|-80.36361|||||1560||BGN 1965|Ironto
+1485844|VA|New Hope Church|church|Montgomery|51|121|371204N|0802347W|37.20111|-80.39639||||||||Blacksburg
+1485853|VA|New Mount Zion Church|church|Montgomery|51|121|371346N|0803121W|37.22944|-80.5225||||||||Radford North
+1485857|VA|New River Church|church|Montgomery|51|121|371015N|0803127W|37.17083|-80.52417||||||||Radford North
+1674649|VA|New River Valley Mall Shopping Center|locale|Montgomery|51|121|370952N|0802530W|37.16444|-80.425||||||||Blacksburg
+1485859|VA|New Saint Peters Church|church|Montgomery|51|121|371410N|0802700W|37.23611|-80.45||||||||Blacksburg
+1674650|VA|Newcomb Heights (subdivision)|ppl|Montgomery|51|121|370900N|0802430W|37.15|-80.40833|||||2150|||Blacksburg
+1674651|VA|Newman Hall|building|Montgomery|51|121|371334N|0802506W|37.22611|-80.41833||||||||Blacksburg
+1674652|VA|Newman Library|building|Montgomery|51|121|371344N|0802511W|37.22889|-80.41972||||||||Blacksburg
+1674653|VA|Nicholas Manor|ppl|Montgomery|51|121|371418N|0802705W|37.23833|-80.45139|||||2040|||Blacksburg
+1674654|VA|Nixon School (historical)|school|Montgomery|51|121|370538N|0802536W|37.09389|-80.42667||||||||Riner
+1674655|VA|Norris Hall|building|Montgomery|51|121|371348N|0802522W|37.23|-80.42278||||||||Blacksburg
+1485880|VA|Norris Run|stream|Montgomery|51|121|371423N|0803619W|37.23972|-80.60528|371437N|0803340W|37.24361|-80.56111||||Radford North
+1674656|VA|Norris Run School (historical)|school|Montgomery|51|121|371501N|0803304W|37.25028|-80.55111||||||||Eggleston
+1485902|VA|North Fork Roanoke River|stream|Montgomery|51|121|371415N|0801250W|37.2375|-80.21389|372011N|0801246W|37.33639|-80.21278||||Elliston
+1674657|VA|North Fork Valley Rural Historic District|park|Montgomery|51|121|371630N|0801831W|37.275|-80.30861||||||||McDonalds Mill
+1674658|VA|Northgate Village Shopping Center|locale|Montgomery|51|121|370904N|0802446W|37.15111|-80.41278||||||||Blacksburg
+1674659|VA|Northside Park (subdivision)|ppl|Montgomery|51|121|371522N|0802504W|37.25611|-80.41778|||||2180|||Newport
+1674660|VA|O'Shaughnessy Hall|building|Montgomery|51|121|371331N|0802507W|37.22528|-80.41861||||||||Blacksburg
+1477585|VA|Oak Grove|ppl|Montgomery|51|121|370648N|0802200W|37.11333|-80.36667|||||2129|||Pilot
+1471698|VA|Oak Grove Cemetery|cemetery|Montgomery|51|121|370636N|0802215W|37.11|-80.37083||||||||Pilot
+1674661|VA|Oak Grove School (historical)|school|Montgomery|51|121|370646N|0802152W|37.11278|-80.36444||||||||Pilot
+1674662|VA|Oak Manor|ppl|Montgomery|51|121|371323N|0802651W|37.22306|-80.4475|||||2080|||Blacksburg
+1674663|VA|Oakwood Park (subdivision)|ppl|Montgomery|51|121|370738N|0802336W|37.12722|-80.39333|||||2160|||Blacksburg
+1471826|VA|Old Brick Church|church|Montgomery|51|121|370707N|0803225W|37.11861|-80.54028||||||||Radford South
+1674722|VA|Old Farm Village (subdivision)|ppl|Montgomery|51|121|370808N|0802234W|37.13556|-80.37611|||||2200|||Blacksburg
+1674664|VA|Old Hecks Shopping Center|locale|Montgomery|51|121|370757N|0802234W|37.1325|-80.37611||||||||Blacksburg
+1674665|VA|Old Hill School (historical)|school|Montgomery|51|121|370820N|0802417W|37.13889|-80.40472||||||||Blacksburg
+1674666|VA|Orchard View (subdivision)|ppl|Montgomery|51|121|371413N|0802415W|37.23694|-80.40417|||||2220|||Blacksburg
+1674667|VA|Pamplin Hall|building|Montgomery|51|121|371343N|0802529W|37.22861|-80.42472||||||||Blacksburg
+1486047|VA|Pandapas Pond|reservoir|Montgomery|51|121|371650N|0802810W|37.28056|-80.46944||||||||Newport
+1472045|VA|Panther Hollow|valley|Montgomery|51|121|370552N|0802009W|37.09778|-80.33583|370554N|0802053W|37.09833|-80.34806||||Pilot
+1486059|VA|Paris Mountain|summit|Montgomery|51|121|371405N|0802010W|37.23472|-80.33611|||||3000||BGN 1941|Ironto
+1674668|VA|Park United Methodist Church|church|Montgomery|51|121|370808N|0802401W|37.13556|-80.40028||||||||Blacksburg
+1674670|VA|Patrick Henry Centre Shopping Center|locale|Montgomery|51|121|371450N|0802455W|37.24722|-80.41528||||||||Blacksburg
+1674669|VA|Patrick Henry Place (subdivision)|ppl|Montgomery|51|121|371445N|0802459W|37.24583|-80.41639|||||2160|||Blacksburg
+1674671|VA|Patton Hall|building|Montgomery|51|121|371345N|0802521W|37.22917|-80.4225||||||||Blacksburg
+1472170|VA|Pedlar Hills|range|Montgomery|51|121|371316N|0801449W|37.22111|-80.24694||||||||Elliston
+1472171|VA|Pedlar Hollow|valley|Montgomery|51|121|371409N|0801401W|37.23583|-80.23361|371215N|0801538W|37.20417|-80.26056||||Elliston
+1674672|VA|Pentecost Church (historical)|church|Montgomery|51|121|370557N|0803212W|37.09917|-80.53667||||||||Radford South
+1674673|VA|Pentecostal Holiness Church|church|Montgomery|51|121|370832N|0802359W|37.14222|-80.39972||||||||Blacksburg
+1674674|VA|Pentecostal Holiness Church (historical)|church|Montgomery|51|121|370735N|0802437W|37.12639|-80.41028||||||||Blacksburg
+1486139|VA|Pepper|ppl|Montgomery|51|121|370949N|0803256W|37.16361|-80.54889|||||1734|||Radford North
+1486140|VA|Pepper Run|stream|Montgomery|51|121|371723N|0801734W|37.28972|-80.29278|371902N|0801820W|37.31722|-80.30556||||McDonalds Mill
+1674675|VA|Pepper Station (historical)|locale|Montgomery|51|121|371143N|0803036W|37.19528|-80.51|||||1726|||Radford North
+1674676|VA|Peppers Ferry (historical)|crossing|Montgomery|51|121|370942N|0803309W|37.16167|-80.5525||||||||Radford North
+1674677|VA|Pheasant Run (subdivision)|ppl|Montgomery|51|121|371454N|0802506W|37.24833|-80.41833|||||2180|||Blacksburg
+1472274|VA|Piedmont|ppl|Montgomery|51|121|370600N|0801309W|37.1|-80.21917|||||1524|||Check
+1674678|VA|Piedmont (subdivision)|ppl|Montgomery|51|121|371244N|0802343W|37.21222|-80.39528|||||2140|||Blacksburg
+1674679|VA|Piedmont Camp Meeting Grounds Historic District|park|Montgomery|51|121|370613N|0801300W|37.10361|-80.21667||||||||Check
+1674680|VA|Pilgrim Tabernacle (historical)|church|Montgomery|51|121|370805N|0802400W|37.13472|-80.4||||||||Blacksburg
+1674681|VA|Pilgrims Pointe (subdivision)|ppl|Montgomery|51|121|371308N|0802700W|37.21889|-80.45|||||2070|||Blacksburg
+1472316|VA|Pilot|ppl|Montgomery|51|121|370307N|0802150W|37.05194|-80.36389|||||2268|||Pilot
+1472320|VA|Pilot Mountain|summit|Montgomery|51|121|370410N|0802129W|37.06944|-80.35806|||||2947|||Pilot
+1486239|VA|Pine View Church|church|Montgomery|51|121|371012N|0803001W|37.17|-80.50028||||||||Radford North
+1486248|VA|Piney Grove Church|church|Montgomery|51|121|371631N|0801508W|37.27528|-80.25222||||||||McDonalds Mill
+1486297|VA|Pleasant View Cemetery|cemetery|Montgomery|51|121|371711N|0802755W|37.28639|-80.46528||||||||Newport
+1486303|VA|Plum Creek|stream|Montgomery|51|121|370759N|0803146W|37.13306|-80.52944|370810N|0802822W|37.13611|-80.47278||||Radford North
+1486307|VA|Poff Hollow|valley|Montgomery|51|121|371349N|0803004W|37.23028|-80.50111|371455N|0803004W|37.24861|-80.50111||||Radford North
+1674682|VA|Poff School (historical)|school|Montgomery|51|121|370228N|0802335W|37.04111|-80.39306||||||||Riner
+1674683|VA|Pond Hill|summit|Montgomery|51|121|370738N|0801811W|37.12722|-80.30306|||||2060|||Ironto
+1472618|VA|Poorhouse Knob|summit|Montgomery|51|121|370630N|0802502W|37.10833|-80.41722|||||2403|||Riner
+1472635|VA|Poplar Branch|stream|Montgomery|51|121|370329N|0802747W|37.05806|-80.46306|370202N|0802823W|37.03389|-80.47306||||Riner
+1674684|VA|Poplar Branch|stream|Montgomery|51|121|370948N|0801751W|37.16333|-80.2975|370904N|0801728W|37.15111|-80.29111||||Ironto
+1472653|VA|Poplar Hollow|valley|Montgomery|51|121|370948N|0801751W|37.16333|-80.2975|370846N|0801750W|37.14611|-80.29722||||Ironto
+1486400|VA|Poverty Creek|stream|Montgomery|51|121|371354N|0803129W|37.23167|-80.52472|371645N|0802658W|37.27917|-80.44944||||Radford North
+1488732|VA|Poverty Creek Horse Trail|trail|Montgomery|51|121|371544N|0802937W|37.26222|-80.49361|||||2200|||Newport
+1674686|VA|Preston Forest|ppl|Montgomery|51|121|371717N|0802410W|37.28806|-80.40278|||||2570|||Newport
+1674685|VA|Price Hall|building|Montgomery|51|121|371332N|0802528W|37.22556|-80.42444||||||||Blacksburg
+1493455|VA|Price Mountain|summit|Montgomery|51|121|371113N|0802742W|37.18694|-80.46167|||||2480|||Blacksburg
+1493456|VA|Prices Fork|ppl|Montgomery|51|121|371235N|0802925W|37.20972|-80.49028|||||2030|||Blacksburg
+1674687|VA|Prices Fork Historic District|park|Montgomery|51|121|371232N|0802931W|37.20889|-80.49194||||||||Blacksburg
+1674688|VA|Prices Fork Research Center|locale|Montgomery|51|121|371244N|0802920W|37.21222|-80.48889||||||||Blacksburg
+1674689|VA|Prices Fork Road Fire Station|building|Montgomery|51|121|371306N|0802716W|37.21833|-80.45444||||||||Blacksburg
+1674690|VA|Prices Fork School|school|Montgomery|51|121|371231N|0802930W|37.20861|-80.49167||||||||Blacksburg
+1674691|VA|Pritchard Hall|building|Montgomery|51|121|371327N|0802512W|37.22417|-80.42||||||||Blacksburg
+1674692|VA|Progress Street Fire Station|building|Montgomery|51|121|371352N|0802450W|37.23111|-80.41389||||||||Blacksburg
+1674693|VA|Rainbow Ridge (subdivision)|ppl|Montgomery|51|121|371304N|0802330W|37.21778|-80.39167|||||2200|||Blacksburg
+1674694|VA|Raintree Village (subdivision)|ppl|Montgomery|51|121|370822N|0802240W|37.13944|-80.37778|||||2200|||Blacksburg
+1674695|VA|Ramble Ridge|ppl|Montgomery|51|121|371147N|0802413W|37.19639|-80.40361|||||2160|||Blacksburg
+1674696|VA|Randolph Hall|building|Montgomery|51|121|371351N|0802525W|37.23083|-80.42361||||||||Blacksburg
+1674697|VA|Rasche Hall|building|Montgomery|51|121|371351N|0802510W|37.23083|-80.41944||||||||Blacksburg
+1674698|VA|Rector Field House|building|Montgomery|51|121|371308N|0802520W|37.21889|-80.42222||||||||Blacksburg
+1674699|VA|Rector Tennis Pavillion|building|Montgomery|51|121|371253N|0802510W|37.21472|-80.41944||||||||Blacksburg
+1473127|VA|Reese Hollow|valley|Montgomery|51|121|371234N|0801650W|37.20944|-80.28056|371203N|0801619W|37.20083|-80.27194||||Ironto
+1496137|VA|Reesedale|ppl|Montgomery|51|121|371345N|0801757W|37.22917|-80.29917|||||1460|||Ironto
+1674700|VA|Reesedale Church|church|Montgomery|51|121|371345N|0801745W|37.22917|-80.29583||||||||Ironto
+1674701|VA|Reesedale School (historical)|school|Montgomery|51|121|371403N|0801803W|37.23417|-80.30083||||||||Ironto
+1473229|VA|Riner|ppl|Montgomery|51|121|370359N|0802627W|37.06639|-80.44083|||||2037|||Riner
+1674702|VA|Riner Elementary School|school|Montgomery|51|121|370347N|0802634W|37.06306|-80.44278||||||||Riner
+1674703|VA|Riner Historic District|park|Montgomery|51|121|370350N|0802626W|37.06389|-80.44056||||||||Riner
+1474272|VA|River Ridge|ridge|Montgomery|51|121|370846N|0801519W|37.14611|-80.25528||||||||Ironto
+1473270|VA|Riverside Church|church|Montgomery|51|121|371112N|0802108W|37.18667|-80.35222||||||||Ironto
+1674704|VA|Robeson Hall|building|Montgomery|51|121|371341N|0802531W|37.22806|-80.42528||||||||Blacksburg
+1486700|VA|Rock Hollow|valley|Montgomery|51|121|371955N|0802030W|37.33194|-80.34167|372052N|0802047W|37.34778|-80.34639||||McDonalds Mill
+1473386|VA|Rock Road Cemetery|cemetery|Montgomery|51|121|370652N|0803341W|37.11444|-80.56139||||||||Radford South
+1674705|VA|Rock Road School (historical)|school|Montgomery|51|121|370800N|0802927W|37.13333|-80.49083||||||||Blacksburg
+1473427|VA|Rocky Branch|stream|Montgomery|51|121|370617N|0801953W|37.10472|-80.33139|370446N|0801723W|37.07944|-80.28972||||Pilot
+1486728|VA|Rocky Branch|stream|Montgomery|51|121|371620N|0801509W|37.27222|-80.2525|371641N|0801635W|37.27806|-80.27639||||McDonalds Mill
+1473503|VA|Rogers|ppl|Montgomery|51|121|370530N|0802325W|37.09167|-80.39028|||||1825|||Riner
+1488711|VA|Rolling Hills|ppl|Montgomery|51|121|370955N|0802731W|37.16528|-80.45861|||||2060|||Blacksburg
+1499987|VA|Rose Hill|summit|Montgomery|51|121|370620N|0802421W|37.10556|-80.40583|||||2540|||Riner
+1674706|VA|Rose Run|stream|Montgomery|51|121|370630N|0801529W|37.10833|-80.25806|370536N|0801740W|37.09333|-80.29444||||Pilot
+1674707|VA|Rosehill Addition (subdivision)|ppl|Montgomery|51|121|370700N|0802356W|37.11667|-80.39889|||||2200|||Riner
+1486772|VA|Roselawn Memorial Cemetery|cemetery|Montgomery|51|121|371007N|0802527W|37.16861|-80.42417||||||||Blacksburg
+1491243|VA|Round Meadow Country Club|locale|Montgomery|51|121|370829N|0802622W|37.14139|-80.43944||||||||Blacksburg
+1486823|VA|Rush Hollow|valley|Montgomery|51|121|372007N|0801949W|37.33528|-80.33028|372037N|0802011W|37.34361|-80.33639||||McDonalds Mill
+1473668|VA|Ryan Hollow|valley|Montgomery|51|121|371020N|0801602W|37.17222|-80.26722|371105N|0801648W|37.18472|-80.28||||Ironto
+1674708|VA|Saint Johns Methodist Church|church|Montgomery|51|121|370837N|0802413W|37.14361|-80.40361||||||||Blacksburg
+1674709|VA|Saint Marys Roman Catholic Church|church|Montgomery|51|121|371356N|0802454W|37.23222|-80.415||||||||Blacksburg
+1674710|VA|Saint Paul African Methodist Episcopal Church|church|Montgomery|51|121|371351N|0802447W|37.23083|-80.41306||||||||Blacksburg
+1674711|VA|Saint Pauls United Methodist Church|church|Montgomery|51|121|370748N|0802430W|37.13|-80.40833||||||||Blacksburg
+1674712|VA|Saint Peters Anglican Catholic Church|church|Montgomery|51|121|370735N|0802437W|37.12639|-80.41028||||||||Blacksburg
+1674713|VA|Saint Thomas Episcopal Church|church|Montgomery|51|121|370752N|0802425W|37.13111|-80.40694||||||||Blacksburg
+1674714|VA|Sandy Hall|building|Montgomery|51|121|371332N|0802526W|37.22556|-80.42389||||||||Blacksburg
+1486947|VA|Sarver Hollow|valley|Montgomery|51|121|372042N|0801951W|37.345|-80.33083|372117N|0802006W|37.35472|-80.335||||McDonalds Mill
+1488693|VA|Sarver Tract Recreation Site|locale|Montgomery|51|121|372133N|0801958W|37.35917|-80.33278|||||3220|||McDonalds Mill
+1674715|VA|Saunders Hall|building|Montgomery|51|121|371329N|0802529W|37.22472|-80.42472||||||||Blacksburg
+1486957|VA|Sawmill Hollow|valley|Montgomery|51|121|371425N|0801228W|37.24028|-80.20778|371525N|0801333W|37.25694|-80.22583||||Elliston
+1674716|VA|Schaeffer Memorial Baptist Church|church|Montgomery|51|121|370821N|0802419W|37.13917|-80.40528||||||||Blacksburg
+1674717|VA|Seitz Hall|building|Montgomery|51|121|371328N|0802526W|37.22444|-80.42389||||||||Blacksburg
+1474167|VA|Seneca Hollow|valley|Montgomery|51|121|371200N|0801425W|37.2|-80.24028|371211N|0801557W|37.20306|-80.26583||||Elliston
+1674718|VA|Shadeland Addition (subdivision)|ppl|Montgomery|51|121|370719N|0802457W|37.12194|-80.41583|||||2185|||Riner
+1487022|VA|Shaffer Hollow|valley|Montgomery|51|121|371345N|0802958W|37.22917|-80.49944|371450N|0802943W|37.24722|-80.49528||||Blacksburg
+1487024|VA|Shaffer Memorial Cemetery|cemetery|Montgomery|51|121|370747N|0802516W|37.12972|-80.42111||||||||Blacksburg
+1674719|VA|Shanks Hall|building|Montgomery|51|121|371354N|0802513W|37.23167|-80.42028||||||||Blacksburg
+1496211|VA|Shawsville|ppl|Montgomery|51|121|371006N|0801520W|37.16833|-80.25556|||||1460|1029||Ironto
+1674720|VA|Shawsville Historic District|park|Montgomery|51|121|371005N|0801523W|37.16806|-80.25639||||||||Ironto
+1674723|VA|Shelor Acres (subdivision)|ppl|Montgomery|51|121|371236N|0802322W|37.21|-80.38944|||||2280|||Blacksburg
+1674724|VA|Shenandoah (subdivision)|ppl|Montgomery|51|121|371454N|0802528W|37.24833|-80.42444|||||2150|||Blacksburg
+1674725|VA|Sherwood Forest (subdivision)|ppl|Montgomery|51|121|370742N|0802331W|37.12833|-80.39194|||||2120|||Blacksburg
+1674726|VA|Shiloh Church (historical)|church|Montgomery|51|121|371241N|0803240W|37.21139|-80.54444||||||||Radford North
+1674727|VA|Shultz Hall|building|Montgomery|51|121|371354N|0802508W|37.23167|-80.41889||||||||Blacksburg
+1474576|VA|Sidney Church|church|Montgomery|51|121|370144N|0802816W|37.02889|-80.47111|||||2287|||Riner
+1674728|VA|Silver Lake Heights (subdivision)|ppl|Montgomery|51|121|370735N|0802559W|37.12639|-80.43306|||||2110|||Blacksburg
+1674729|VA|Silver Leaf (subdivision)|ppl|Montgomery|51|121|371416N|0802428W|37.23778|-80.40778|||||2160|||Blacksburg
+1674730|VA|Simpkins School (historical)|school|Montgomery|51|121|370603N|0803020W|37.10083|-80.50556||||||||Radford South
+1487267|VA|Sites Branch|stream|Montgomery|51|121|371725N|0801941W|37.29028|-80.32806|371848N|0801851W|37.31333|-80.31417||||McDonalds Mill
+1474648|VA|Skillet Hollow|valley|Montgomery|51|121|371007N|0801704W|37.16861|-80.28444|371026N|0801734W|37.17389|-80.29278||||Ironto
+1487297|VA|Slate Branch|stream|Montgomery|51|121|371049N|0803016W|37.18028|-80.50444|371130N|0802421W|37.19167|-80.40583||||Radford North
+1674731|VA|Slate Lick Run|stream|Montgomery|51|121|371205N|0802124W|37.20139|-80.35667|371243N|0801909W|37.21194|-80.31917||||Ironto
+1474682|VA|Slaughterpen Hollow|valley|Montgomery|51|121|371010N|0802036W|37.16944|-80.34333|371021N|0801953W|37.1725|-80.33139||||Ironto
+1674732|VA|Sleepy Hollow|ppl|Montgomery|51|121|370905N|0802542W|37.15139|-80.42833|||||2040|||Blacksburg
+1674733|VA|Slusher Hall|building|Montgomery|51|121|371331N|0802519W|37.22528|-80.42194||||||||Blacksburg
+1487326|VA|Slussers Chapel|church|Montgomery|51|121|371612N|0802337W|37.27|-80.39361||||||||Newport
+1474745|VA|Smith Creek|stream|Montgomery|51|121|370525N|0802317W|37.09028|-80.38806|370549N|0802630W|37.09694|-80.44167||||Riner
+1487348|VA|Smith Run|stream|Montgomery|51|121|371734N|0801701W|37.29278|-80.28361|371924N|0801738W|37.32333|-80.29389||||McDonalds Mill
+1674734|VA|Smithfield Plantation|locale|Montgomery|51|121|371304N|0802557W|37.21778|-80.4325||||||||Blacksburg
+1674735|VA|Smyth Hall|building|Montgomery|51|121|371330N|0802524W|37.225|-80.42333||||||||Blacksburg
+1674736|VA|Snider Cemetery|cemetery|Montgomery|51|121|371237N|0803019W|37.21028|-80.50528||||||||Radford North
+1674737|VA|Snidow Heights (subdivision)|ppl|Montgomery|51|121|370757N|0802340W|37.1325|-80.39444|||||2160|||Blacksburg
+1674738|VA|Snidow Heights (subdivision)|ppl|Montgomery|51|121|371423N|0802518W|37.23972|-80.42167|||||2100|||Blacksburg
+1474867|VA|South Fork Roanoke River|stream|Montgomery|51|121|371415N|0801249W|37.2375|-80.21361|370607N|0801314W|37.10194|-80.22056||||Elliston
+1674739|VA|South Franklin Street Historic District|park|Montgomery|51|121|370740N|0802423W|37.12778|-80.40639||||||||Blacksburg
+1674740|VA|South Hill Park (subdivision)|ppl|Montgomery|51|121|370706N|0802512W|37.11833|-80.42|||||2205|||Riner
+1674741|VA|Southeast Park|park|Montgomery|51|121|371236N|0802333W|37.21|-80.3925||||||||Blacksburg
+1674742|VA|Southgate (subdivision)|ppl|Montgomery|51|121|371306N|0802450W|37.21833|-80.41389|||||2090|||Blacksburg
+1474923|VA|Sowders Chapel|church|Montgomery|51|121|370648N|0801545W|37.11333|-80.2625|||||1427|||Pilot
+1674743|VA|Spradlin Addition (subdivision)|ppl|Montgomery|51|121|370804N|0802255W|37.13444|-80.38194|||||2160|||Blacksburg
+1474978|VA|Spring Branch|stream|Montgomery|51|121|370959N|0801416W|37.16639|-80.23778|370822N|0801856W|37.13944|-80.31556||||Elliston
+1475015|VA|Spring Valley Branch|stream|Montgomery|51|121|370925N|0801506W|37.15694|-80.25167|370940N|0801615W|37.16111|-80.27083||||Ironto
+1674744|VA|Squires Hall|building|Montgomery|51|121|371346N|0802507W|37.22944|-80.41861||||||||Blacksburg
+1487565|VA|Stevers Gap|gap|Montgomery|51|121|371851N|0802603W|37.31417|-80.43417||||||||Newport
+1674745|VA|Stonegate (subdivision)|ppl|Montgomery|51|121|371425N|0802535W|37.24028|-80.42639|||||2120|||Blacksburg
+1487662|VA|Straley Branch|stream|Montgomery|51|121|371457N|0803139W|37.24917|-80.5275|371508N|0803241W|37.25222|-80.54472||||Radford North
+1487668|VA|Stroubles Creek|stream|Montgomery|51|121|371128N|0803133W|37.19111|-80.52583|371455N|0802439W|37.24861|-80.41083||||Radford North
+1674746|VA|Stroubles Mill|ppl|Montgomery|51|121|371235N|0802720W|37.20972|-80.45556|||||2050|||Blacksburg
+1502810|VA|Strouds Creek|stream|Montgomery|51|121|370523N|0803445W|37.08972|-80.57917|370600N|0803243W|37.1|-80.54528|||BGN 1974|Radford South
+1674747|VA|Suburban Hills (subdivision)|ppl|Montgomery|51|121|370844N|0802448W|37.14556|-80.41333|||||2140|||Blacksburg
+1487685|VA|Sugar Bottom Hollow|valley|Montgomery|51|121|372010N|0801918W|37.33611|-80.32167|371915N|0801845W|37.32083|-80.3125||||McDonalds Mill
+1497169|VA|Sugar Grove|ppl|Montgomery|51|121|370606N|0801944W|37.10167|-80.32889|||||1640|||Pilot
+1487694|VA|Sugar House Hollow|valley|Montgomery|51|121|372039N|0801825W|37.34417|-80.30694|371917N|0801825W|37.32139|-80.30694||||McDonalds Mill
+1674749|VA|Sundance Ridge (subdivision)|ppl|Montgomery|51|121|371442N|0802546W|37.245|-80.42944|||||2120|||Blacksburg
+1674750|VA|Sundance Village (subdivision)|ppl|Montgomery|51|121|371433N|0802546W|37.2425|-80.42944|||||2130|||Blacksburg
+1487733|VA|Sunnyside Church|church|Montgomery|51|121|371338N|0803200W|37.22722|-80.53333||||||||Radford North
+1674748|VA|Sunnyside School (historical)|school|Montgomery|51|121|371346N|0803121W|37.22944|-80.5225||||||||Radford North
+1487736|VA|Sunset Cemetery|cemetery|Montgomery|51|121|370726N|0802415W|37.12389|-80.40417||||||||Riner
+1491278|VA|Swanee Hollow Country Club|locale|Montgomery|51|121|371437N|0802616W|37.24361|-80.43778||||||||Blacksburg
+1475384|VA|Sweet Spring Hollow|valley|Montgomery|51|121|370829N|0801557W|37.14139|-80.26583|370833N|0801738W|37.1425|-80.29389||||Ironto
+1674751|VA|Sweet Spring Run|stream|Montgomery|51|121|370829N|0801558W|37.14139|-80.26611|370838N|0801737W|37.14389|-80.29361||||Ironto
+1475473|VA|Tanzy Hollow|valley|Montgomery|51|121|370544N|0802008W|37.09556|-80.33556|370450N|0801958W|37.08056|-80.33278||||Pilot
+1475508|VA|Taylor Hollow|valley|Montgomery|51|121|371205N|0802123W|37.20139|-80.35639|371240N|0801857W|37.21111|-80.31583|||BGN 1966|Ironto
+1674752|VA|Teel Subdivision|ppl|Montgomery|51|121|370820N|0802204W|37.13889|-80.36778|||||2150|||Ironto
+1475551|VA|Texas Hollow|valley|Montgomery|51|121|370625N|0801533W|37.10694|-80.25917|370525N|0801654W|37.09028|-80.28167||||Pilot
+1475552|VA|Texas Hollow Church|church|Montgomery|51|121|370554N|0801643W|37.09833|-80.27861||||||||Pilot
+1674753|VA|Texas Hollow School (historical)|school|Montgomery|51|121|370614N|0801558W|37.10389|-80.26611||||||||Pilot
+1674754|VA|The Grove|building|Montgomery|51|121|371327N|0802540W|37.22417|-80.42778||||||||Blacksburg
+1674755|VA|The Marketplace Shopping Center|locale|Montgomery|51|121|371002N|0802518W|37.16722|-80.42167||||||||Blacksburg
+1674756|VA|The Orchard|ppl|Montgomery|51|121|371409N|0802335W|37.23583|-80.39306|||||2250|||Blacksburg
+1674757|VA|The Vistas (subdivision)|ppl|Montgomery|51|121|371418N|0802411W|37.23833|-80.40306|||||2240|||Blacksburg
+1674758|VA|Thomas Hall|building|Montgomery|51|121|371354N|0802516W|37.23167|-80.42111||||||||Blacksburg
+1674759|VA|Tices Mill (historical)|locale|Montgomery|51|121|370559N|0801402W|37.09972|-80.23389||||||||Check
+1487950|VA|Toms Creek|stream|Montgomery|51|121|371159N|0803351W|37.19972|-80.56417|371756N|0802421W|37.29889|-80.40583||||Radford North
+1674760|VA|Toms Creek Park|park|Montgomery|51|121|371508N|0802611W|37.25222|-80.43639||||||||Newport
+1487965|VA|Town Branch|stream|Montgomery|51|121|370823N|0802453W|37.13972|-80.41472|370731N|0802435W|37.12528|-80.40972||||Blacksburg
+1674761|VA|Town and Country Estates (subdivision)|ppl|Montgomery|51|121|370707N|0802419W|37.11861|-80.40528|||||2190|||Riner
+1674762|VA|Tremont Estates (subdivision)|ppl|Montgomery|51|121|371412N|0802602W|37.23667|-80.43389|||||2100|||Blacksburg
+1674763|VA|Trinity United Methodist Church|church|Montgomery|51|121|371128N|0802206W|37.19111|-80.36833||||||||Ironto
+1488035|VA|Turkeypen Hollow|valley|Montgomery|51|121|371615N|0802045W|37.27083|-80.34583|371712N|0802006W|37.28667|-80.335||||McDonalds Mill
+1476094|VA|Union Valley|basin|Montgomery|51|121|370348N|0802506W|37.06333|-80.41833||||||||Riner
+1476095|VA|Union Valley Church|church|Montgomery|51|121|370255N|0802619W|37.04861|-80.43861||||||||Riner
+1476096|VA|Union Valley Church|church|Montgomery|51|121|370400N|0802338W|37.06667|-80.39389|||||1990|||Riner
+1674764|VA|Union Valley School (historical)|school|Montgomery|51|121|370401N|0802339W|37.06694|-80.39417||||||||Riner
+1674765|VA|University Mall Shopping Center|locale|Montgomery|51|121|371402N|0802605W|37.23389|-80.43472||||||||Blacksburg
+1674766|VA|University Place (subdivision)|ppl|Montgomery|51|121|371408N|0802615W|37.23556|-80.4375|||||2080|||Blacksburg
+1674767|VA|University Terrace (subdivision)|ppl|Montgomery|51|121|371438N|0802516W|37.24389|-80.42111|||||2140|||Blacksburg
+1493739|VA|Vicker|ppl|Montgomery|51|121|370949N|0802917W|37.16361|-80.48806|||||1810|||Blacksburg
+1493740|VA|Vicker Heights|ppl|Montgomery|51|121|370954N|0802840W|37.165|-80.47778|||||1940|||Blacksburg
+1674768|VA|Victory Heights (subdivision)|ppl|Montgomery|51|121|370747N|0802510W|37.12972|-80.41944|||||2150|||Blacksburg
+1488139|VA|Virginia Polytechnic Institute|school|Montgomery|51|121|371343N|0802526W|37.22861|-80.42389||||||||Blacksburg
+1488704|VA|Virginia Polytechnic Institute Airport|airport|Montgomery|51|121|371224N|0802346W|37.20667|-80.39611|||||2110|||Blacksburg
+1488709|VA|Virginia Polytechnic Institute and State University Horticultural Research Area|locale|Montgomery|51|121|370958N|0802506W|37.16611|-80.41833|||||2101|||Blacksburg
+1498594|VA|Virginia Tech Airport|airport|Montgomery|51|121|371227N|0802429W|37.2075|-80.40806|||||2132|||Blacksburg
+1674769|VA|Virginia Tech Golf Course|locale|Montgomery|51|121|371344N|0802555W|37.22889|-80.43194||||||||Blacksburg
+1674770|VA|Vista Via (subdivision)|ppl|Montgomery|51|121|370840N|0802525W|37.14444|-80.42361|||||2040|||Blacksburg
+1498920|VA|WFNR-AM (Blacksburg)|tower|Montgomery|51|121|370801N|0802117W|37.13361|-80.35472||||||||Ironto
+1498975|VA|WFNR-FM (Christiansburg)|tower|Montgomery|51|121|370801N|0802117W|37.13361|-80.35472||||||||Ironto
+1502822|VA|WJJJ Radio Tower (Tazewell)|tower|Montgomery|51|121|370910N|0802457W|37.15278|-80.41583|||||2130|||Blacksburg
+1498925|VA|WJJJ-AM (Christiansburg)|tower|Montgomery|51|121|370911N|0802457W|37.15306|-80.41583||||||||Blacksburg
+1498918|VA|WKEX-AM (Blacksburg)|tower|Montgomery|51|121|371357N|0802640W|37.2325|-80.44444||||||||Blacksburg
+1498919|VA|WKEX-AM (Blacksburg)|tower|Montgomery|51|121|371416N|0802840W|37.23778|-80.47778||||||||Blacksburg
+1498921|VA|WKEX-AM (Blacksburg)|tower|Montgomery|51|121|371357N|0802640W|37.2325|-80.44444||||||||Blacksburg
+1498969|VA|WUVT-FM (Blacksburg)|tower|Montgomery|51|121|371328N|0802430W|37.22444|-80.40833||||||||Blacksburg
+1498970|VA|WVVV-FM (Blacksburg)|tower|Montgomery|51|121|370911N|0802457W|37.15306|-80.41583||||||||Blacksburg
+1502739|VA|WYDD-TV (Blacksburg)|tower|Montgomery|51|121|371504N|0803043W|37.25111|-80.51194||||||||Eggleston
+1500268|VA|Wake Forest|ppl|Montgomery|51|121|371317N|0803420W|37.22139|-80.57222|||||1900|||Radford North
+1488149|VA|Wake Forest Cemetery|cemetery|Montgomery|51|121|371254N|0803442W|37.215|-80.57833||||||||Radford North
+1488150|VA|Wake Forest School|school|Montgomery|51|121|371254N|0803408W|37.215|-80.56889||||||||Radford North
+1488172|VA|Walls Branch|stream|Montgomery|51|121|371145N|0802900W|37.19583|-80.48333|371307N|0802804W|37.21861|-80.46778||||Blacksburg
+1488174|VA|Walnut Branch|stream|Montgomery|51|121|370812N|0802325W|37.13667|-80.39028|370634N|0802343W|37.10944|-80.39528||||Blacksburg
+1674771|VA|Walnut Grove (subdivision)|ppl|Montgomery|51|121|370652N|0802401W|37.11444|-80.40028|||||2210|||Riner
+1476284|VA|Walnut Hollow|valley|Montgomery|51|121|371152N|0801747W|37.19778|-80.29639|371053N|0801832W|37.18139|-80.30889||||Ironto
+1500275|VA|Walton|ppl|Montgomery|51|121|370912N|0803050W|37.15333|-80.51389|||||1740|||Radford North
+1674772|VA|Walton School Number 1 (historical)|school|Montgomery|51|121|370942N|0803056W|37.16167|-80.51556||||||||Radford North
+1674773|VA|Wanless Church (historical)|church|Montgomery|51|121|370947N|0801757W|37.16306|-80.29917||||||||Ironto
+1488224|VA|Weller Baker School|school|Montgomery|51|121|370841N|0802422W|37.14472|-80.40611||||||||Blacksburg
+1476446|VA|Wells Hollow|valley|Montgomery|51|121|370934N|0801939W|37.15944|-80.3275|371007N|0801929W|37.16861|-80.32472||||Ironto
+1674774|VA|Wesleyan Methodist Church|church|Montgomery|51|121|371317N|0802452W|37.22139|-80.41444||||||||Blacksburg
+1674775|VA|Westover Hills|ppl|Montgomery|51|121|371413N|0802650W|37.23694|-80.44722|||||2020|||Blacksburg
+1674776|VA|Westview Cemetery|cemetery|Montgomery|51|121|371402N|0802430W|37.23389|-80.40833||||||||Blacksburg
+1674777|VA|Wheeler Baker School (historical)|school|Montgomery|51|121|370851N|0802422W|37.1475|-80.40611||||||||Blacksburg
+1476557|VA|Wheeling Hollow|valley|Montgomery|51|121|370957N|0801742W|37.16583|-80.295|371020N|0801811W|37.17222|-80.30306||||Ironto
+1488284|VA|White Church|church|Montgomery|51|121|371521N|0802051W|37.25583|-80.3475||||||||McDonalds Mill
+1674778|VA|White Pine|ppl|Montgomery|51|121|370827N|0802010W|37.14083|-80.33611|||||2170|||Ironto
+1488324|VA|Whitelock Cemetery|cemetery|Montgomery|51|121|371814N|0801902W|37.30389|-80.31722||||||||McDonalds Mill
+1500314|VA|Whitethorne|ppl|Montgomery|51|121|371159N|0803353W|37.19972|-80.56472|||||1700|||Radford North
+1488345|VA|Whitewash Hollow|valley|Montgomery|51|121|372016N|0801933W|37.33778|-80.32583|372108N|0802023W|37.35222|-80.33972||||McDonalds Mill
+1488348|VA|Whittaker Hollow|valley|Montgomery|51|121|371240N|0803224W|37.21111|-80.54|371353N|0803306W|37.23139|-80.55167||||Radford North
+1674779|VA|Whittemore Hall|building|Montgomery|51|121|371351N|0802528W|37.23083|-80.42444||||||||Blacksburg
+1674780|VA|Williams Hall|building|Montgomery|51|121|371340N|0802529W|37.22778|-80.42472||||||||Blacksburg
+1674781|VA|Willow Springs Lake|reservoir|Montgomery|51|121|371453N|0802116W|37.24806|-80.35444||||||||Ironto
+1488416|VA|Wilson Creek|stream|Montgomery|51|121|371116N|0802109W|37.18778|-80.3525|371052N|0802436W|37.18111|-80.41||||Ironto
+1674782|VA|Windmill Hills|ppl|Montgomery|51|121|370913N|0802549W|37.15361|-80.43028|||||2080|||Blacksburg
+1476856|VA|Windy Hill Church|church|Montgomery|51|121|370323N|0801943W|37.05639|-80.32861||||||||Pilot
+1488468|VA|Womack Branch|stream|Montgomery|51|121|371512N|0801536W|37.25333|-80.26|371613N|0801625W|37.27028|-80.27361||||McDonalds Mill
+1674783|VA|Woodbine (subdivision)|ppl|Montgomery|51|121|371538N|0802430W|37.26056|-80.40833|||||2135|||Newport
+1674784|VA|Woodlyn (subdivision)|ppl|Montgomery|51|121|370740N|0802315W|37.12778|-80.3875|||||2140|||Blacksburg
+1493565|VA|Yellow Sulphur|ppl|Montgomery|51|121|371017N|0802349W|37.17139|-80.39694|||||1840|||Blacksburg
+1493566|VA|Yellow Sulphur Springs|ppl|Montgomery|51|121|371042N|0802351W|37.17833|-80.3975|||||1900|||Blacksburg
+1926781|VA|Yellow Sulphur Springs Post Office (historical)|po|Montgomery|51|121|371042N|0802351W|37.17833|-80.3975||||||||Blacksburg
+1474427|VA|Zionhill Church|church|Montgomery|51|121|370646N|0803409W|37.11278|-80.56917||||||||Radford South

@@ -1,0 +1,120 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildStyle section */
+		6B055E1808BE8F0600E91567 /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Development;
+		};
+		6B055E1908BE8F0600E91567 /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXFileReference section */
+		6B055E2008BE8F6E00E91567 /* const_iterator.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = const_iterator.cpp; path = "../Documents/CS 2604 Fall 05'/DLTemplate/const_iterator.cpp"; sourceTree = SOURCE_ROOT; };
+		6B055E2108BE8F6E00E91567 /* const_iterator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = const_iterator.h; path = "../Documents/CS 2604 Fall 05'/DLTemplate/const_iterator.h"; sourceTree = SOURCE_ROOT; };
+		6B055E2208BE8F9F00E91567 /* DNodeT.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DNodeT.h; path = "../Documents/CS 2604 Fall 05'/DLTemplate/DNodeT.h"; sourceTree = SOURCE_ROOT; };
+		6B055E2308BE8F9F00E91567 /* iterator.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = iterator.cpp; path = "../Documents/CS 2604 Fall 05'/DLTemplate/iterator.cpp"; sourceTree = SOURCE_ROOT; };
+		6B055E2408BE8F9F00E91567 /* iterator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = iterator.h; path = "../Documents/CS 2604 Fall 05'/DLTemplate/iterator.h"; sourceTree = SOURCE_ROOT; };
+		6B055E2508BE8F9F00E91567 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = English; path = "../Documents/CS 2604 Fall 05'/DLTemplate/English.lproj/main.cpp"; sourceTree = SOURCE_ROOT; };
+		6B055E2608BE8F9F00E91567 /* main2.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main2.cpp; path = "../Documents/CS 2604 Fall 05'/DLTemplate/main2.cpp"; sourceTree = SOURCE_ROOT; };
+		6B055E2708BE8F9F00E91567 /* main3.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main3.cpp; path = "../Documents/CS 2604 Fall 05'/DLTemplate/main3.cpp"; sourceTree = SOURCE_ROOT; };
+		6B055E2808BE8F9F00E91567 /* Partial1.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = Partial1.txt; path = "../Documents/CS 2604 Fall 05'/DLTemplate/Partial1.txt"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6B055E1608BE8F0600E91567 = {
+			isa = PBXGroup;
+			children = (
+				6B055E2208BE8F9F00E91567 /* DNodeT.h */,
+				6B055E2308BE8F9F00E91567 /* iterator.cpp */,
+				6B055E2408BE8F9F00E91567 /* iterator.h */,
+				6B055E4C08BE963000E91567 /* main.cpp */,
+				6B055E2608BE8F9F00E91567 /* main2.cpp */,
+				6B055E2708BE8F9F00E91567 /* main3.cpp */,
+				6B055E2808BE8F9F00E91567 /* Partial1.txt */,
+				6B055E2008BE8F6E00E91567 /* const_iterator.cpp */,
+				6B055E2108BE8F6E00E91567 /* const_iterator.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		6B055E1A08BE8F0600E91567 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6B9D8EAD09298CE40076770A /* Build configuration list for PBXProject "Doubley Linked Template" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6B055E1808BE8F0600E91567 /* Development */,
+				6B055E1908BE8F0600E91567 /* Deployment */,
+			);
+			hasScannedForEncodings = 0;
+			mainGroup = 6B055E1608BE8F0600E91567;
+			projectDirPath = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXVariantGroup section */
+		6B055E4C08BE963000E91567 /* main.cpp */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B055E2508BE8F9F00E91567 /* English */,
+			);
+			name = main.cpp;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B9D8EAE09298CE40076770A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		6B9D8EAF09298CE40076770A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		6B9D8EB009298CE40076770A /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B9D8EAD09298CE40076770A /* Build configuration list for PBXProject "Doubley Linked Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9D8EAE09298CE40076770A /* Development */,
+				6B9D8EAF09298CE40076770A /* Deployment */,
+				6B9D8EB009298CE40076770A /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B055E1A08BE8F0600E91567 /* Project object */;
+}

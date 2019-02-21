@@ -1,0 +1,122 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf110
+{\fonttbl\f0\fswiss\fcharset77 Helvetica;\f1\fmodern\fcharset77 CourierNewPSMT;\f2\froman\fcharset77 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww19980\viewh12980\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\qc\pardirnatural
+
+\f0\fs24 \cf0 Homework 2:  Complexity\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f1\fs26 \cf0 //\'ca\'ca\'ca On my honor:
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca - I have not discussed the C++ language code in my program with
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca\'ca\'ca anyone other than my instructor or the teaching assistants
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca\'ca\'ca assigned to this course.
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca - I have not used C++ language code obtained from another student,
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca\'ca\'ca or any other unauthorized source, either modified or unmodified.\'ca
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca - If any C++ language code or documentation used in my program
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca\'ca\'ca was obtained from another source, such as a text book or course
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca\'ca\'ca notes, that has been clearly noted with a proper citation in
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca\'ca\'ca the comments of my program.
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca - I have not designed this program in such a way as to defeat or
+\f2\fs32 \
+
+\f1\fs26 //\'ca\'ca\'ca\'ca\'ca interfere with the normal operation of the Curator System.
+\f2\fs32 \
+
+\f1\fs26 //
+\f2\fs32 \
+
+\f1\fs26 //\'ca \'ca Kevin Denny, kdenny2
+\f0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\qc\pardirnatural
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+\cf0 1)	
+\f2\fs20 template <typename T> void Reverse(DListT<T>& L) \{ \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0  \
+  		 if ( L.isEmpty() ) return;         // nothing to do if L is empty  //4\
+ \
+   		DListT<T>::iterator Front = L.begin();  // 3\
+   		DListT<T>::iterator Back  = --L.end();  //3\
+ \
+   		while ( Front != Back ) \{          // done if iterators meet  //1\
+     		 T Temp = *Front;   // 1\
+     		 *Front = *Back;     //1\
+      		 *Back  = Temp;     //1\
+ \
+     		 Front++;    //2    \
+     		 if ( Front == Back ) return;    // done if iterators were adjacent  // 4\
+      		Back--;   //2\
+   		\} \
+	 \} 
+\f0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+\cf0 \
+	T(N) = 11 + 12 N\
+\
+2)	
+\f2\fs20 template <typename T>  \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 	   void Recurse(DListT<T>::iterator Front, DListT<T>::iterator Back) \{ \
+ \
+   		if ( Front == Back ) return;    // done if iterators meet  //3\
+ \
+   		T Temp = *Front;  //1\
+  	         *Front = *Back;    //1\
+   	         *Back  = Temp;     //1\
+ \
+   		if ( ++Front == Back ) return;  // done if iterators were adjacent  // 4\
+    \
+   		Recurse(Front, --Back);   //3\
+	\} 
+\f0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+\cf0 \
+	if n = 1, then T(N) = 7\
+\
+3)	The Symmetric Property;  nlog(n) is a big O(upper bound) of N but N is not an upper bound of nlog(n), hence this fails the Symmetric Property.\
+\
+4)	a.	big theta = n^2\
+	b.	big theta = n^2\
+	c. 	big theta = nlog(n)\
+	d.	big theta = 1\
+	e.	big theta = n^(1/2)\
+\
+5)	The limit as n -> infinity of 17nlogn^2 / nlogn is 17 logn which results in the limit approaching 0.  Because the limity is not 0 by corollary, then we have big(O) but not necessarily \
+	big theta.}

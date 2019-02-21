@@ -1,0 +1,254 @@
+		     +--------------------------+
+       	       	     |		CS 3204		|
+		     | PROJECT 2: USER PROGRAMS	|
+		     | 	   DESIGN DOCUMENT     	|
+		     +--------------------------+
+
+---- GROUP ----
+
+>> Fill in the names and email addresses of your group members.
+
+Kevin Denny <kdenny2@vt.edu>
+Eric Lordahl <elordahl@vt.edu>
+Robert Houtman <houtman@vt.edu>
+Yanothan Taye <ypenny@vt.edu>
+
+---- PRELIMINARIES ----
+
+>> If you have any preliminary comments on your submission, notes for the
+>> TAs, or extra credit, please give them here.
+
+>> Please cite any offline or online sources you consulted while
+>> preparing your submission, other than the Pintos documentation, course
+>> text, lecture notes, and course staff.
+
+			   ARGUMENT PASSING
+			   ================
+
+---- DATA STRUCTURES ----
+
+>> A1: Copy here the declaration of each new or changed `struct' or
+>> `struct' member, global or static variable, `typedef', or
+>> enumeration.  Identify the purpose of each in 25 words or less.
+
+-N/A There was no new declarations or changed items that directly involved argument passing.
+
+
+---- ALGORITHMS ----
+
+>> A2: Briefly describe how you implemented argument parsing.  How do
+>> you arrange for the elements of argv[] to be in the right order?
+>> How do you avoid overflowing the stack page?
+
+-For argument passing we have an char* array of size 100 to hold arguments being passed and use a string tokenizer to 
+parse the arguments.  We use an array to keep addresses of the elements of argv
+
+char* args_array[100]; //for arguments
+
+/*we parse the argument here */
+for (token = strtok_r (s, " ", &save_ptr); token != NULL;
+       token = strtok_r (NULL, " ", &save_ptr)) {
+    args_array[index] = token;
+    index++;
+  }
+
+mem_array[x] // array used for keeping track of element
+
+
+
+---- RATIONALE ----
+
+>> A3: Why does Pintos implement strtok_r() but not strtok()?
+
+-Because strtok() is not thread safe; it internally uses a global variable.
+
+>> A4: In Pintos, the kernel separates commands into a executable name
+>> and arguments.  In Unix-like systems, the shell does this
+>> separation.  Identify at least two advantages of the Unix approach.
+
+-Helps to convolute the commands
+-Kernel uses stacks to hold arguments which could overflow possibly but Unix if too many argurments are given 
+it will just kill it.
+
+			     SYSTEM CALLS
+			     ============
+
+---- DATA STRUCTURES ----
+
+>> B1: Copy here the declaration of each new or changed `struct' or
+>> `struct' member, global or static variable, `typedef', or
+>> enumeration.  Identify the purpose of each in 25 words or less.
+
+-struct file
+	Has the file descriptor number and enable it to be put into the open file list
+
+-tid_t process_execute (const char *file_name)
+	Starts a new process for a given file name, passing any given arguments, and returns the new process's program 		id (pid). If the program is unable to load or run, the pid returns a -1 for its value. 
+
+-static void execute_thread (void *file_name_)
+	A thread function that loads a user process and starts it running. Here we parse the arguments being passed in 		by the user.
+
+-void process_exit (void)
+	This function basically free's all the resources ( destroying all pages ect. ) from a process.
+
+-int process_wait (tid_t child_tid UNUSED)
+	Waits for a process to die and returns its exit status.  If
+   	it was terminated by an exception returns -1.  If there was an invalid process id, the process id was not a 		child or wait was successful in its function call then -1 is returned immediately with no waiting.
+
+-static void exit_handler( struct intr_frame * );
+	This handles the exit command initiated by the user pulled off the user stack
+
+-static int exec_handler( struct intr_frame * );
+	This handles the execute command initiated by the user pulled off the user stack
+
+-static bool create_handler( struct intr_frame * );
+	This handles the create command intiated by the user pulled off the user stack
+
+-static bool rmv_handler( struct intr_frame * );
+	This handles the remove command intiatied by the user pulled off the user stack
+
+-static int open_handler( struct intr_frame * );
+	This handles the open command initiated by the user pulled off the user stack
+
+-static int size_handler( struct intr_frame * );
+	This handles the size command initiated by the user pulled off the user stack
+
+-static int read_handler( struct intr_frame * );
+	This handles the read command initiated by the user pulled of the user stack
+
+-static int write_handler( struct intr_frame * );
+	This handles the write command initiated by the user pulled of the user stack
+
+-static void seek_handler( struct intr_frame * );
+	This handles the seek command initiated by the user pulled of the user stack
+
+-static unsigned tell_handler( struct intr_frame * );
+	This handles the tell command initiated by the user pulled of the user stack
+
+-static void close_handler( struct intr_frame * );
+	This handles the close command initiated by the user pulled of the user stack
+
+-static bool is_valid_user(uint32_t *,  void * );
+	check stack pointer to argument for validity
+
+-static int get_user(const uint8_t * ) UNUSED;
+	Reads a byte at user virtual address UADDR. UADDR must be below PHYS_BASE
+
+-static bool put_user(uint8_t *, uint8_t ) UNUSED;
+	Writes BYTE to user address UDST.UDST must be below PHYS_BASE.
+
+>> B2: Describe how file descriptors are associated with open files.
+>> Are file descriptors unique within the entire OS or just within a
+>> single process?
+
+-file descriptors are file names cached to save time on subsequent opens of the same file.  
+They are unique through the entire OS because when searching for the file name you are looking
+through a system-wide open-file table. They are added to the open file list as well.
+
+---- ALGORITHMS ----
+
+>> B3: Describe your code for reading and writing user data from the
+>> kernel.
+
+-When reading the data, we attempt to extract the file pointer from the thread list and check to see if that 
+pointer is NULL, if it is then we return -1 if the pointer is not null then the file is read
+
+-When writing the data, we attempt to extract the file pointer from the thread list and check to see if that 
+pointer is NULL, if it is then we return -1 if the pointer is not null then we proceed to write data
+
+>> B4: Suppose a system call causes a full page (4,096 bytes) of data
+>> to be copied from user space into the kernel.  What is the least
+>> and the greatest possible number of inspections of the page table
+>> (e.g. calls to pagedir_get_page()) that might result?  What about
+>> for a system call that only copies 2 bytes of data?  Is there room
+>> for improvement in these numbers, and how much?
+
+
+
+>> B5: Briefly describe your implementation of the "wait" system call
+>> and how it interacts with process termination.
+The wait system call in a nutshell makes a call to process_wait using the childs pid. proces_wait in turn actually does all the waiting implementation. This function first checks to see if it needs to wait on a child or if the child has already exited. If it has, it automatically returns the child's status and exits out of the function. On the other hand, if the child has not exited yet, it calls thread_block on the current process and waits for the child to get scheduled, run, and exit (exit is what calls thread_unblock on the parent thread). 
+
+-We use the the child's pid to when calling wait. Our implementation of wait is in process_wait.  We first check if a process needs to wait on a child or the child exited.  We return the status of the child and exit out the function if it has already exited. If a child hasnt exited, we unblock the current process and wait for the scheduling of the child; we then run and exit to which exiting involveds the unblocking of the parent thread
+
+>> B6: Any access to user program memory at a user-specified address
+>> can fail due to a bad pointer value.  Such accesses must cause the
+>> process to be terminated.  System calls are fraught with such
+>> accesses, e.g. a "write" system call requires reading the system
+>> call number from the user stack, then each of the call's three
+>> arguments, then an arbitrary amount of user memory, and any of
+>> these can fail at any point.  This poses a design and
+>> error-handling problem: how do you best avoid obscuring the primary
+>> function of code in a morass of error-handling?  Furthermore, when
+>> an error is detected, how do you ensure that all temporarily
+>> allocated resources (locks, buffers, etc.) are freed?  In a few
+>> paragraphs, describe the strategy or strategies you adopted for
+>> managing these issues.  Give an example.
+
+-First we have created a function that checks for a valid user.  This function first checks if the pointer off the stack is pointing to valid user memory.  If that pointer is pointing to valid memory we then check to see if its page directory has any invalid pages ( inactive ). If both it is pointing to valid memory and has valid pages then pointer was deemed appropriate for use.  Each system call used this helper function to check the validity of the pointer.
+
+-If error is detected, thread_exit is simply called to assure that all temporarily allocated resources are freed. 
+
+
+---- SYNCHRONIZATION ----
+
+>> B7: The "exec" system call returns -1 if loading the new executable
+>> fails, so it cannot return before the new executable has completed
+>> loading.  How does your code ensure this?  How is the load
+>> success/failure status passed back to the thread that calls "exec"?
+
+-We halt the parent process's execution so the child process can run and load and (after the fail or successful load) then we restart the execution process after the parent is signaled. A global semaphore that the parent downs and the child ups is used.
+
+>> B8: Consider parent process P with child process C.  How do you
+>> ensure proper synchronization and avoid race conditions when P
+>> calls wait(C) before C exits?  After C exits?  How do you ensure
+>> that all resources are freed in each case?  How about when P
+>> terminates without waiting, before C exits?  After C exits?  Are
+>> there any special cases?
+
+-To avoid race condition when P call wait(C) before C exits, P is blocked and waits for C to finish.  Once C is finished, C sends a signal to P telling it to finish its process then exit.
+-After C exits, for P blocking is not needed nor does it need to wait and P finished then exits.
+-We ensure that resources are freed by making sure the processes are exiting correctly.
+-When P terminates w/out waiting before C exits we check to see has C exited and stop P from terminating and let C finish will keeping P alive
+-When P terminates w/out waiting after C exits then we not that the syncronization is working properly
+
+
+---- RATIONALE ----
+
+>> B9: Why did you choose to implement access to user memory from the
+>> kernel in the way that you did?
+
+-Because we felt this would be the safest way to access memory from the kernol.  We wanted to properly
+gain access with out accessing kernol memory hence creating panic throughout the system causing failures.
+
+>> B10: What advantages or disadvantages can you see to your design
+>> for file descriptors?
+
+>> B11: The default tid_t to pid_t mapping is the identity mapping.
+>> If you changed it, what advantages are there to your approach?
+
+-This identity was not changed.
+
+			   SURVEY QUESTIONS
+			   ================
+
+Answering these questions is optional, but it will help us improve the
+course in future semesters.  Feel free to tell us anything you
+want--these questions are just to spur your thoughts.  You may also
+choose to respond anonymously in the course evaluations at the end of
+the quarter.
+
+>> In your opinion, was this assignment, or any one of the three problems
+>> in it, too easy or too hard?  Did it take too long or too little time?
+
+>> Did you find that working on a particular part of the assignment gave
+>> you greater insight into some aspect of OS design?
+
+>> Is there some particular fact or hint we should give students in
+>> future quarters to help them solve the problems?  Conversely, did you
+>> find any of our guidance to be misleading?
+
+>> Do you have any suggestions for the TAs to more effectively assist
+>> students, either for future quarters or the remaining projects?
+
+>> Any other comments?

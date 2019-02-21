@@ -1,0 +1,335 @@
+MPASM  4.02 Released                           PROJ4_SP05.ASM   11-20-2005  15:34:02         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Warning[215]: Processor superseded by command line.  Verify processor symbol.
+                      00001         list P=16F84
+                      00002         include P16F84.INC
+                      00001         LIST
+                      00002 ; P16F84.INC  Standard Header File, Version 2.00    Microchip Technology, Inc.
+Message[301]: MESSAGE: (Processor-header file mismatch.  Verify selected processor.)
+Error[126]  : Argument out of range (must be greater than or equal to 255)
+Error[126]  : Argument out of range (__MAXRAM must be used first)
+Error[126]  : Argument out of range (__MAXRAM must be used first)
+Error[126]  : Argument out of range (__MAXRAM must be used first)
+                      00136         LIST
+                      00003 
+                      00004 ; Define the direction bit types
+  00000001            00005 f       equ     1
+  00000000            00006 w       equ     0
+  00000003            00007 status equ 3
+  00000001            00008 coinreturn      equ     1       ;coin return button set bit1
+  00000002            00009 penny           equ     2       ;inserting a penny sets bit2 
+  00000003            00010 nickel          equ     3       ;inserting a nickel sets bit3
+  00000004            00011 dime            equ     4       ;inserting a dime sets bit4
+  00000005            00012 quarter         equ     5       ;inserting a quarter sets bit5
+  00000037            00013 enough          equ     0x37    ;current cost of a coke is $0.55
+                      00014                                                 ;change this value if needed
+                      00015 
+                      00016 ;Define memory areas for output
+000010                00017                         org 0x10
+000010                00018 allreturn       res     1       ;write 0xFF to this location to return all coins
+000011                00019 somereturn      res     1       ;write 0x01 to return a nickel, 0x02 to return a dime
+000012                00020 releasecoke     res     1       ;write 0xFF to this location to dispense a coke
+                      00021 
+                      00022 ; Define the data storage locations
+                      00023 ; these definitions at 0x20 are supplied to the user and must not be modified
+000020                00024                         org     0x20
+000020                00025 totalcoins      res     1       ;the total amount of coins inserted thusfar (cents)
+000021                00026 change          res 1   ;the amount of change to be returned (cents)
+000022                00027 inttempw        res 1   ;a location to hold w during int service routine
+000023                00028 tempw           res 1   ;a location to hold w temporarily
+000024                00029 tencount        res     1       ;hold count for output timing
+000025                00030 inval           res 1   ;the last velocity value read (m/s)
+000026                00031 semaphore       res     1       ;an indicator that a new velocity value has been loaded into inval
+                      00032 
+                      00033 ; do not change this section
+                      00034 ; start defining the program
+                      00035 ; jump around the interrupt handler return to the main program
+000000                00036         org     0x0
+000000 8E0B           00037 start   bsf     INTCON,GIE              ;enable interrupts
+000002 880B           00038                 bsf     INTCON,INTE             ;enable interrupts
+000004 6A26           00039                 clrf    semaphore       ;clear local signally variable
+000006 EF80 F000      00040                 goto    main
+                      00041 
+                      00042 ; handler is supplied to the user
+                      00043 ; it reads a 4-bit value from PORTB and stores it in location
+                      00044 ; "inval"
+MPASM  4.02 Released                           PROJ4_SP05.ASM   11-20-2005  15:34:02         PAGE  2
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00045 ; in this assignment, we are assuming that at least ~200 hundred
+                      00046 ; cycles passes between interrupts
+                      00047 ; do not modify the handler code
+000004                00048         org 0x4
+Error[118]  : Overwriting previous address contents (0004)
+Error[118]  : Overwriting previous address contents (0005)
+000004 0000           00049 handler nop
+Error[118]  : Overwriting previous address contents (0006)
+Error[118]  : Overwriting previous address contents (0007)
+000006 6E22           00050                 movwf   inttempw        ;temporaily store current w during interrupt
+Error[118]  : Overwriting previous address contents (0008)
+Error[118]  : Overwriting previous address contents (0009)
+000008 5006           00051                 movf    PORTB,w         ;get pin values
+00000A 0BFE           00052                 andlw   0xFE            ;zero out low order bit (INT pin)
+00000C 6E25           00053                 movwf   inval           ;put the pin values in inval
+00000E 8026           00054                 bsf             semaphore,0     ;indicate that new pin values are avilable
+000010 5022           00055                 movf    inttempw, w     ;restore the old value of w
+000012 920B           00056                 bcf             INTCON,INTF     ;re-enable interrupts
+000014 9006           00057                 bcf             PORTB, 0
+000016 0010           00058                 retfie                          ;return to the instruction at which the int occured
+                      00059 ; end of section not to change
+                      00060 
+                      00061 ; beginning of the "real" program
+                      00062 ; start by clearing all working values to 0
+000100                00063         org 0x100
+000100 6A20           00064 main    clrf    totalcoins
+                      00065 ;               the program sits in this loop waiting for interrupts
+                      00066 ;               when a new input value is available, semaphore is set to 1
+000102 A026           00067 loop    btfss   semaphore,0
+000104 EF81 F000      00068                 goto    loop
+                      00069 ;               at this point, the location "inval" will have the last
+                      00070 ;       5-bit value read from port B
+                      00071 ;               this 5-bit values represents the coins input
+000108 9026           00072                 bcf             semaphore,0
+                      00073 
+                      00074 ;               STUDENT SUBROUTINES SHOULD BE INSERTED HERE
+                      00075 ;               
+00010A EC89 F000      00076                 call    compcoins
+                      00077 
+                      00078 ;       end of student subroutines, return to the loop waiting for the next interrupt
+00010E EF81 F000      00079                 goto    loop
+                      00080 
+                      00081 ; Compute the value of the coins inserted and determine whether or not to 
+                      00082 ;dispense a soda and/or give change
+                      00083 
+000112 BA25           00084 compcoins       btfsc inval,5   ;test the 5 bits of inval to see which coin is
+000114 EF9A F000      00085                 goto SetQ       ;inserted or if return is pressed
+000118 B825           00086                 btfsc inval,4
+00011A EF9D F000      00087                 goto SetD
+00011E B625           00088                 btfsc inval,3
+000120 EFA0 F000      00089                 goto SetN
+000124 B425           00090                 btfsc inval,2
+Error[113]  : Symbol not previously defined (Return)
+MPASM  4.02 Released                           PROJ4_SP05.ASM   11-20-2005  15:34:02         PAGE  3
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+000126 EF00 F000      00091                 goto Return
+00012A B225           00092                 btfsc inval,1
+Error[113]  : Symbol not previously defined (Return)
+00012C EF00 F000      00093                 goto Return
+000130 EFA1 F000      00094                 goto Add
+                      00095 
+000134 0E19           00096 SetQ            movlw 0x19      ;quarter added
+000136 EFA1 F000      00097                 goto Add
+                      00098 
+00013A 0E0A           00099 SetD            movlw 0x0A      ;dime added
+00013C EFA1 F000      00100                 goto Add
+                      00101 
+000140 0E05           00102 SetN            movlw 0x05      ;nickel added
+                      00103 
+                      00104 
+000142 2620           00105 Add             addwf totalcoins, 1     ;add inserted coin to totalcoins
+000144 5020           00106                 movf totalcoins,0       ;totalcoins - 37
+000146 0837           00107                 sublw 0x37
+000148 B403           00108                 btfsc STATUS,Z          ;if 0 Enough
+00014A EFAA F000      00109                 goto TestE              ;else totalcoins is less then or more than
+                      00110 
+00014E 0EFF           00111 Enough          movlw 0xFF              ;you have enough
+000150 6E12           00112                 movwf releasecoke
+000152 0012           00113                 return
+                      00114 
+                      00115 
+000154 5020           00116 TestE           movf totalcoins,0       ;test to see if totalcoins is less than
+000156 0837           00117                 sublw 0x37              ;or greater than
+000158 B003           00118                 btfsc STATUS,C
+00015A 0012           00119                 return
+00015C EFB0 F000      00120                 goto Tomuch
+                      00121 
+                      00122 
+                      00123 
+000160 ECA7 F000      00124 Tomuch          call Enough
+000164 080A           00125                 sublw 0x0A
+000166 B003           00126                 btfsc STATUS,C
+000168 EFB8 F000      00127                 goto changeN
+00016C EFBD F000      00128                 goto changeD
+                      00129 
+000170 0E01           00130 changeN         movlw 0x01
+000172 6E11           00131                 movwf somereturn
+000174 ECCA F000      00132                 call count2ten
+000178 0012           00133                 return
+                      00134 
+00017A 0E14           00135 changeD         movlw 0x14
+00017C 6E21           00136                 movwf change
+00017E ECCA F000      00137                 call count2ten
+000182 6A21           00138                 clrf change
+000184 0E14           00139                 movlw 0x14
+000186 6E21           00140                 movwf change
+000188 ECCA F000      00141                 call count2ten
+00018C 0012           00142                 return
+MPASM  4.02 Released                           PROJ4_SP05.ASM   11-20-2005  15:34:02         PAGE  4
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00143 
+Warning[203]: Found opcode in column 1. (Return)
+Error[113]  : Symbol not previously defined (movlw)
+Error[112]  : Missing operator
+00018E 0012           00144 Return          movlw 0xFF
+000190 6E10           00145                 movwf allreturn
+000192 0012           00146                 return
+                      00147 
+                      00148 ;
+                      00149 ;
+                      00150 ;
+                      00151 ;This routine delays for about 20 instruction cycles
+000194 0E09           00152 count2ten       movlw   0x09
+000196 6E24           00153                         movwf   tencount
+000198 2E24           00154 again           decfsz  tencount
+00019A EFCC F000      00155                         goto    again
+00019E 0012           00156                         return
+                      00157 ;
+                      00158 
+                      00159 
+                      00160                 end
+MPASM  4.02 Released                           PROJ4_SP05.ASM   11-20-2005  15:34:02         PAGE  5
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+Add                               00000142
+C                                 00000000
+DC                                00000001
+EEADR                             00000009
+EECON1                            00000088
+EECON2                            00000089
+EEDATA                            00000008
+EEIE                              00000006
+EEIF                              00000004
+Enough                            0000014E
+F                                 00000001
+FSR                               00000004
+GIE                               00000007
+INDF                              00000000
+INTCON                            0000000B
+INTE                              00000004
+INTEDG                            00000006
+INTF                              00000001
+IRP                               00000007
+NOT_PD                            00000003
+NOT_RBPU                          00000007
+NOT_TO                            00000004
+OPTION_REG                        00000081
+PCL                               00000002
+PCLATH                            0000000A
+PORTA                             00000005
+PORTB                             00000006
+PS0                               00000000
+PS1                               00000001
+PS2                               00000002
+PSA                               00000003
+RBIE                              00000003
+RBIF                              00000000
+RD                                00000000
+RP0                               00000005
+RP1                               00000006
+STATUS                            00000003
+SetD                              0000013A
+SetN                              00000140
+SetQ                              00000134
+T0CS                              00000005
+T0IE                              00000005
+T0IF                              00000002
+T0SE                              00000004
+TMR0                              00000001
+TRISA                             00000085
+TRISB                             00000086
+TestE                             00000154
+Tomuch                            00000160
+W                                 00000000
+WR                                00000001
+WREN                              00000002
+WRERR                             00000003
+MPASM  4.02 Released                           PROJ4_SP05.ASM   11-20-2005  15:34:02         PAGE  6
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+Z                                 00000002
+_CP_OFF                           00003FFF
+_CP_ON                            0000000F
+_HS_OSC                           00003FFE
+_LP_OSC                           00003FFC
+_PWRTE_OFF                        00003FFF
+_PWRTE_ON                         00003FF7
+_RC_OSC                           00003FFF
+_WDT_OFF                          00003FFB
+_WDT_ON                           00003FFF
+_XT_OSC                           00003FFD
+__18F452                          00000001
+again                             00000198
+allreturn                         00000010
+change                            00000021
+changeD                           0000017A
+changeN                           00000170
+coinreturn                        00000001
+compcoins                         00000112
+count2ten                         00000194
+dime                              00000004
+enough                            00000037
+f                                 00000001
+handler                           00000004
+inttempw                          00000022
+inval                             00000025
+loop                              00000102
+main                              00000100
+nickel                            00000003
+penny                             00000002
+quarter                           00000005
+releasecoke                       00000012
+semaphore                         00000026
+somereturn                        00000011
+start                             00000000
+status                            00000003
+tempw                             00000023
+tencount                          00000024
+totalcoins                        00000020
+w                                 00000000
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+0000 : XXXXXXXXXXXXXXXX XXXXXXXX-------- ---------------- ----------------
+0100 : XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+MPASM  4.02 Released                           PROJ4_SP05.ASM   11-20-2005  15:34:02         PAGE  7
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+
+0140 : XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+0180 : XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX ---------------- ----------------
+
+All other memory blocks unused.
+
+Program Memory Bytes Used:   184
+Program Memory Bytes Free: 32584
+
+
+Errors   :    14
+Warnings :     2 reported,     0 suppressed
+Messages :     1 reported,     0 suppressed
+
+Error[173]  : Source file path exceeds 62 characters (C:\DOCUMENTS AND SETTINGS\K\DESKTOP\ASEMBLY PROJECTS\PROJECT4\PROJ4_SP05.ASM)

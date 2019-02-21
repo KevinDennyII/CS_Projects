@@ -1,0 +1,177 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeBuildStyle = 014CEA460018CE2711CA2923 /* Debug */;
+		activeExecutable = 6B0AFC1A0989E64400DD5756 /* bignum */;
+		activeTarget = 8DD76F620486A84900D96B5E /* bignum */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* bignum */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 6B0AFC1F0989E66400DD5756 /* Code sense */;
+		executables = (
+			6B0AFC1A0989E64400DD5756 /* bignum */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 160470715;
+			PBXWorkspaceStateSaveDate = 160470715;
+		};
+		perUserProjectItems = {
+			6BFB6FAE09909F00007B1CA6 /* PBXTextBookmark */ = 6BFB6FAE09909F00007B1CA6 /* PBXTextBookmark */;
+			6BFB6FAF09909F00007B1CA6 /* PBXTextBookmark */ = 6BFB6FAF09909F00007B1CA6 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6B0AFC1E0989E66400DD5756 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 994}}";
+			sepNavSelRange = "{1135, 0}";
+			sepNavVisRect = "{{0, 384}, {933, 568}}";
+			sepNavWindowFrame = "{{31, 49}, {972, 697}}";
+		};
+	};
+	6B0AFC1A0989E64400DD5756 /* bignum */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = bignum;
+		sourceDirectories = (
+		);
+	};
+	6B0AFC1E0989E66400DD5756 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	6B0AFC1F0989E66400DD5756 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6B0AFC200989E68B00DD5756 /* DListT.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 6384}}";
+			sepNavSelRange = "{180, 0}";
+			sepNavVisRect = "{{0, 994}, {933, 568}}";
+			sepNavWindowFrame = "{{15, 49}, {972, 697}}";
+		};
+	};
+	6B0AFC270989E6E800DD5756 /* iterator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 2016}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {933, 568}}";
+			sepNavWindowFrame = "{{15, 44}, {972, 697}}";
+		};
+	};
+	6B0AFC2B0989E75A00DD5756 /* calculator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 812}}";
+			sepNavSelRange = "{1147, 0}";
+			sepNavVisRect = "{{0, 234}, {933, 568}}";
+			sepNavWindowFrame = "{{104, 43}, {972, 697}}";
+		};
+	};
+	6B0AFC2C0989E75A00DD5756 /* calculator.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 568}}";
+			sepNavSelRange = "{435, 0}";
+			sepNavVisRect = "{{0, 0}, {933, 568}}";
+			sepNavWindowFrame = "{{155, -29}, {972, 697}}";
+		};
+	};
+	6B39A329098DB8E4005D883A /* DropOutStack.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 3906}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {933, 568}}";
+			sepNavWindowFrame = "{{15, 44}, {972, 697}}";
+		};
+	};
+	6B39A32A098DB8E4005D883A /* DropOutStack.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 1036}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {933, 568}}";
+			sepNavWindowFrame = "{{15, 44}, {972, 697}}";
+		};
+	};
+	6BEE34B5098EA55300ECC240 /* P1test.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 568}}";
+			sepNavSelRange = "{574, 0}";
+			sepNavVisRect = "{{0, 0}, {933, 568}}";
+			sepNavWindowFrame = "{{5, 41}, {972, 697}}";
+		};
+	};
+	6BFB6FAE09909F00007B1CA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 44";
+		rLen = 0;
+		rLoc = 1331;
+		rType = 0;
+		vrLen = 578;
+		vrLoc = 1045;
+	};
+	6BFB6FAF09909F00007B1CA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: std";
+		rLen = 0;
+		rLoc = 1135;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 1045;
+	};
+	8DD76F620486A84900D96B5E /* bignum */ = {
+		activeExec = 0;
+		executables = (
+			6B0AFC1A0989E64400DD5756 /* bignum */,
+		);
+	};
+}

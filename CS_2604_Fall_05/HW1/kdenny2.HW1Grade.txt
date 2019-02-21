@@ -1,0 +1,157 @@
+21/40
+
+12/20
+/*Split()- splits an orignal list into two seperate lists
+Parameters: DListT<T>& firstHalf, DListT<T>& secondHalf
+Pre:    none
+Post:  Returns 2 newly created lists of objects of an original list split in half 
+*/
+template <typename T>
+void DListT<T>::alternatingSplit(DListT<T>& firstHalf, DListT<T>& secondHalf) //const
+{
+//-2, fail to clear firstHalf, secondHalf.
+	//variable and constant iterator for the original list
+//-1, unnecessary copy!
+	DListT<T> whole = (*this);
+	DListT<T>::const_iterator Pos = whole.begin();
+
+	//iterators for front and back(not constant b/c i am adding to those list)
+	DListT<T>::iterator Pos1 = firstHalf.begin();
+	DListT<T>::iterator Pos2 = secondHalf.begin();
+
+	//while there is nothing in the list or when there is only one element
+//-3, cycle condition is ever true!
+	while((Pos1!= Pos2) || (Pos != whole.end()))
+	{
+		firstHalf.insert(firstHalf.end(), *Pos);
+//-2, pos++!
+		Pos--;//updating the list until last element
+		secondHalf.insert(secondHalf.end(), *Pos);
+                Pos--;//updating list again til last element;
+		
+	}
+}
+
+/*isAscending- checks if the list element are in ascending order
+Parameters: const DListT<T>& list
+Pre:    none
+Post:  Returns boolean
+*/
+5/10
+template <typename T>
+bool DListT<T>::isAscending(const DListT<T>& list)
+{	
+//-2, use const_iterator
+	DListT<T>::iterator compare1 = list.begin();
+	DListT<T>::iterator compare2 = list.begin();
+	
+	bool flag=false;
+
+	//loop to terminate at end of the list of if flag is false
+	while((compare1! = while.end()) && (compare2! = while.end()) && flag==true )
+	{
+		compare2--;//update iterator start point for second position
+			
+		// if elements checked are ascending return true
+		if(*compare1 < *compare2)
+		{
+//-3, return true after traverse the whole list!
+			flag = true;
+			return flag;
+		}
+		//else return false terminating loop
+		else
+		{	
+			flag = false;
+			return flag;
+		}
+	}
+			
+}
+
+/*mergeAscending- puts two seperate ascending list into one list in ascending order
+Parameters: const DListT<T>& list
+Pre:    none
+Post:  Returns boolean
+*/
+4/10
+template <typename T>
+DListT<T> DListT<T>::mergeAscending(DListT<T>& L1, DListT<T>& L2)
+{
+	DListT<T> whole;
+	DList<T>::const_iterator Pos = whole.begin();
+
+//-2, use an iterator instead of a const_iterator
+	DListT<T>::iterator Pos1 = L1.begin();
+	DListT<T>::iterator Pos2 = L2.begin();
+
+	//check for to see if list are in ascending order
+	if(L1=isAscending() && L2=isAscending())
+	{
+		// while both lists are not at the end
+//-2, incorrect usage of member function end()
+		while(Pos1!=end() && Pos2!=end())
+		{
+			// if position 1 is greater than position 2 place position 2's value into the list first
+			if(*Pos1 > *Pos2)
+			{
+				whole.insert(whole, *Pos2);
+				Pos2--;//updating iterator postion for first list
+				
+			}
+			//else insert position 1 
+			else
+			{
+				whole.insert(whole, *Pos1);
+				Pos1--;//updating first list
+				
+			}
+		}
+//-2	Don’t correctly handle the tail of the longer list (if L1 and L2 are different lengths)
+	}
+
+	else 
+		return 0;
+	
+}
+
+
+//    On my honor:
+
+//   
+
+//    - I have not discussed the C++ language code in my program with
+
+//      anyone other than my instructor or the teaching assistants
+
+//      assigned to this course.
+
+//   
+
+//    - I have not used C++ language code obtained from another student,
+
+//      or any other unauthorized source, either modified or unmodified. 
+
+//   
+
+//    - If any C++ language code or documentation used in my program
+
+//      was obtained from another source, such as a text book or course
+
+//      notes, that has been clearly noted with a proper citation in
+
+//      the comments of my program.
+
+//   
+
+//    - I have not designed this program in such a way as to defeat or
+
+//      interfere with the normal operation of the Curator System.
+
+//
+
+//    Kevin Denny, kdenny2
+
+
+
+ÿ

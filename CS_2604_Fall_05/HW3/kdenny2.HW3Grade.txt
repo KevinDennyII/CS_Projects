@@ -1,0 +1,206 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf110
+{\fonttbl\f0\froman\fcharset77 Times-Bold;\f1\froman\fcharset77 Times-Roman;\f2\fswiss\fcharset77 Helvetica;
+\f3\fswiss\fcharset77 Helvetica-Bold;\f4\fnil\fcharset78 HiraKakuPro-W3;\f5\fmodern\fcharset77 CourierNewPSMT;
+}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh12880\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\b\fs30 \cf0 Homework 3:  Binary Trees
+\fs24 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \
+
+40/40
+
+1.
+\f1\b0 \
+// eLCHelper() traverses the tree and creates and returns a vector  \
+// object containing copies of all data elements that occur in left \
+// children within the tree. \
+// \
+// Parameters:  sRoot    pointer to a tree node, or NULL \
+//              Lefties  vector in which values will be placed \
+// Pre:         sRoot is NULL or targets a tree node, Lefties is \
+//              empty on initial (non-recursive) call \
+// Post:        Lefties contains the specified values, tree is unchanged \
+// Called by:   extractLeftChildren() \
+// Calls:       itself, std::vector interface, possibly other member fns 
+\f2 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f1 \cf0 template <typename T> \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 void BST<T>::eLCHelper(BinNodeT<T>* sRoot, vector<T>& Lefties) const \{ \
+	//checking for empty tree\
+	if (sRoot = NULL)\
+		return;\
+	\
+	//checks left side and right side of the tree for left children\
+	if(sRoot =! NULL)\
+	\{\
+		if (sRoot->Left =! NULL)\
+		\{\
+			T data = sRoot->Left->Element;\
+			Lefties.push_back(data);\
+			eLCHelper(sRoot->Left, Lefties); // recursive call to traverse left side of tree\
+		\}\
+		if(sRoot->Right =! NULL)\
+		\{\
+			eLCHelper(sRoot-Right, Lefties); // recursive call to traverse right side of tree\
+		\}	\
+	\}\
+	\
+ \
+   \} \
+\
+
+\f0\b 2. 
+\f1\b0 \
+// mapSortedListToBST() inserts the elements of the array List[] into \
+// the binary search tree Tree so that Tree has minimal height. \
+// \
+// Parameters:  Lo     index of first elem of List[] to be processed \
+//              Hi     index of final elem of List[] to be processed \
+//              List[] array of values to place into tree \
+//              Tree   BST object to receive values \
+// Pre:         Lo and Hi are indices of data elements in List[] \
+//              List[i] <= List[i+1] for 0 <= i < Hi \
+//              for initial (non-recursive) call, Tree is empty \
+// Post:        List[] is unchanged \
+//              Tree is a minimal-height binary search tree containing \
+//              the values between Lo and Hi, inclusive \
+// Called by:   client \
+// Calls:       BST<T>::Insert() \
+void mapSortedListToBST(int Lo, int Hi, int List[], BST<int>& Tree) \{ \
+	\
+	// making sure that the list is valid\
+	if((Hi - Lo)  >=  0)\
+	\{\
+		int mid = (Hi-Lo)/2;\
+		\
+		if( mid < Lo)\
+		\{\
+			mid = mid + Lo;\
+		\}\
+\
+		Tree.Insert(List[mid]); // inserting midldle element\
+			\
+		//inserting middle element in lower half of the list\
+		mapSortedListToBST(Lo, mid , List, Tree);\
+		//inserting middle element in upper half of the list\
+		mapSortedListToBST(mid, Hi, List, Tree);\
+\
+		\
+		if ( mid == 0)\
+		\{\
+			//the indexes are next to each other at mid = 0\
+			Tree.Insert(List[Lo]);	\
+		\}\
+		\
+	\}\
+		\
+  \
+\} 
+\f2 \
+\
+
+\f3\b 3.
+\f2\b0 \
+Theorem:  If T is a binary tree with 
+\f1 \uc0\u955  levels then the number of nodes N in T satisfies the bound:  N<=2^ \u955  - 1.\
+\
+Proof:  Let S be the set of all integers 
+\f2 \uc0\u955 \'b3
+\f1 1 \
+such that if T is a binary tree with 
+\f2 \uc0\u955 
+\f1 levels then T has at most 2^
+\f2 \uc0\u955  
+\f1 - 1leaf nodes
+\fs16 .
+\fs24  \
+ 	Base case: if 
+\f2 \uc0\u955 
+\f1 = 1 then the tree must have one node (the root) and it must have no child \
+nodes.  Hence there is 1 leaf node (which is 2^
+\f2 \uc0\u955  
+\f1 - 1if 
+\f2 \uc0\u955 
+\f1 = 1), and so 1 
+\f4 \'81\'b8
+\f1 S. \
+	Now suppose that for some integer K 
+\f2 \'b3
+\f1 1, all the integers 1 through K are in S.  That is, whenever a \
+binary tree has M levels with M 
+\f2 \'b2
+\f1 K, it has at most 2M-1 leaf nodes. \
+Let T be a binary tree with K + 1 levels. If T has the maximum number of leaves, T consists of a root \
+node and two nonempty subtrees, say S1and S2.  Let S1and S2 have M1and M2levels, respectively. \
+Since M1and M2are between 1 and K, each is in S by the inductive assumption. Hence, the number \
+of leaf nodes in S1and S2 are at most 2K-1and 2K-1, respectively.  Since all the leaves of T must be \
+leaves of S1or of S2, the number of leaves in T is at most 2K-1+ 2K-1 which is 2K.  Therefore, K + 1 is \
+in S. \
+	Hence by Mathematical Induction, S = [1, 
+\f2 \'b0
+\f1 ). \
+
+\f2 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f5 \cf0 //\'ca\'ca\'ca On my honor:
+\f1 \
+
+\f5 //\'ca\'ca\'ca
+\f1 \
+
+\f5 //\'ca\'ca\'ca - I have not discussed the C++ language code in my program with
+\f1 \
+
+\f5 //\'ca\'ca\'ca\'ca\'ca anyone other than my instructor or the teaching assistants
+\f1 \
+
+\f5 //\'ca\'ca\'ca\'ca\'ca assigned to this course.
+\f1 \
+
+\f5 //\'ca\'ca\'ca
+\f1 \
+
+\f5 //\'ca\'ca\'ca - I have not used C++ language code obtained from another student,
+\f1 \
+
+\f5 //\'ca\'ca\'ca\'ca\'ca or any other unauthorized source, either modified or unmodified.\'ca
+\f1 \
+
+\f5 //\'ca\'ca\'ca
+\f1 \
+
+\f5 //\'ca\'ca\'ca - If any C++ language code or documentation used in my program
+\f1 \
+
+\f5 //\'ca\'ca\'ca\'ca\'ca was obtained from another source, such as a text book or course
+\f1 \
+
+\f5 //\'ca\'ca\'ca\'ca\'ca notes, that has been clearly noted with a proper citation in
+\f1 \
+
+\f5 //\'ca\'ca\'ca\'ca\'ca the comments of my program.
+\f1 \
+
+\f5 //\'ca\'ca\'ca
+\f1 \
+
+\f5 //\'ca\'ca\'ca - I have not designed this program in such a way as to defeat or
+\f1 \
+
+\f5 //\'ca\'ca\'ca\'ca\'ca interfere with the normal operation of the Curator System.
+\f1 \
+
+\f5 //
+\f1 \
+
+\f5 //\'ca \'ca Kevin Denny, kdenny2
+\f2 \
+}

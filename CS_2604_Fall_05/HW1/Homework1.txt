@@ -1,0 +1,124 @@
+
+#include<iostream>
+//DListT<T>
+using namespace std;
+
+/*SymmetricDifference()- creates a list of elements from the difference of two
+diferent lists.
+Parameters: const DListT<T>& L1, const DListT<T>& L2
+Pre:    none
+Post:  Returns a newly created list of objects that are not in both L1 & L2. 
+*/
+template <typename T>
+DListT<T> SymmetricDifference(const DListT<T>& L1, const DListT<T>& L2)
+{
+	bool found;
+	DListT<T> L3;
+
+	// for loop for the 1st list
+	for(DListT<T>::const_iterator Pos1 = L1.begin(); Pos1 != L1.end(); Pos1++)
+	{
+			found = false;
+		    // for loop for the 2nd list
+			for(DListT<T>::const_iterator Pos2 = L2.begin(); Pos2 != L2.end(); Pos2++)
+			{
+				if(*Pos1 == *Pos2)
+				{
+					found = true;
+				}
+				//else 
+				//	found = false;
+			}
+		
+			if(!found)
+			{
+				L3.insert(L3.end(), *Pos1);
+			}
+			
+	}
+
+	for(DListT<T>::const_iterator Pos2 = L2.begin(); Pos2 != L2.end(); Pos2++)
+	{
+			found = false;
+		    // for loop for the 2nd list
+			for(DListT<T>::const_iterator Pos1 = L1.begin(); Pos1 != L1.end(); Pos1++)
+			{
+				if(*Pos2 == *Pos1)
+				{
+					found = true;
+				}
+				//else 
+				//	found = false;
+			}
+		
+			if(!found)
+			{
+				L3.insert(L3.end(), *Pos2);
+			}	
+	}
+	return L3;
+}
+
+/*Split()- splits an orignal list into front and back halves(two seperate lists)
+Parameters: DListT<T>& frontHalf, DListT<T>& backHalf
+Pre:    none
+Post:  Returns 2 newly created lists of objects of an original list split in half 
+*/
+template <typename T>
+void Split(DListT<T>& frontHalf, DListT<T>& backHalf) //const
+{
+	//variable and constant iterator for the original list
+	DListT<T> whole;
+	DListT<T>::const_iterator Pos = whole.begin();
+
+	//iterators for front and back(not constant b/c i am adding to those list)
+	DListT<T>::iterator Pos1 = frontHalf.begin();
+	DListT<T>::iterator Pos2 = backHalf.begin();
+
+	//while there is nothing in the list or when there is only one element
+	while((Pos1!= Pos2) || (Pos != whole.end()))
+	{
+		frontHalf.insert(frontHalf.end(), *Pos);
+		Pos--;//updating the list until last element
+		backHalf.insert(backHalf.end(), *Pos);
+		
+	}
+}
+
+//    On my honor:
+
+//   
+
+//    - I have not discussed the C++ language code in my program with
+
+//      anyone other than my instructor or the teaching assistants
+
+//      assigned to this course.
+
+//   
+
+//    - I have not used C++ language code obtained from another student,
+
+//      or any other unauthorized source, either modified or unmodified. 
+
+//   
+
+//    - If any C++ language code or documentation used in my program
+
+//      was obtained from another source, such as a text book or course
+
+//      notes, that has been clearly noted with a proper citation in
+
+//      the comments of my program.
+
+//   
+
+//    - I have not designed this program in such a way as to defeat or
+
+//      interfere with the normal operation of the Curator System.
+
+//
+
+//    Kevin Denny
+
+
